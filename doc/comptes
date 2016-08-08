@@ -1,0 +1,12 @@
+Les comptes doivent avoir :
+    - un ID
+    - Un login
+    - un mot de passe
+    - une adresse mail
+    - un niveau de privilege
+        - Admin = 1
+        - Moderateur = 2
+        - Utilisateur = 3
+    - une url locale vers un avatar
+    - une adresse ip actuelle
+    - une adresse ip derniere visite ($_SERVER['REMOTE_ADDR']. si ip differente, prevenir l'user)

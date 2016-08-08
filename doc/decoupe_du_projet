@@ -1,0 +1,15 @@
+Une page de garde :
+    - Un header
+        - Une animation (en haut a droite, je veux l'integration de la super formule)
+        - Deux champs pour se connecter sous la super formule?
+
+    - Un menu
+        - N1 Back-office
+        - N1 Ecrire un article
+        - N1 Consulter Articles publiés
+        - N1 Consulter Articles brouillon
+        - N1 Profil
+
+    - Des articles
+        - Ils sont piochés en base de donnée mysql.
+        - Limiter le nombre d'article affichés

@@ -1,0 +1,8 @@
+La bdd des articles doit avoir :
+
+    - un ID
+    - le titre
+    - le corps
+    - le booleen brouillon
+    - l'auteur (login !mail)
+    - la date
