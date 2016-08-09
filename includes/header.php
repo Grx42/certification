@@ -8,27 +8,28 @@
 
     if (!isset($_POST['email']) && !isset($_POST['password']))
     {
-        echo "
-        <div class='row'>
-            <div class='col-lg-12'>
-                <form class='form-inline' action='index.php' method='post'>
-                    <div class='form-group'>
-                        <label for='email'>Email</label>
-                        <input type='email' class='form-control' id='email' name='email' placeholder='example@example.com'>
-                    </div>
+        if(!isset($_SESSION['logged']))
+        {
+            echo "
+            <div class='row'>
+                <div class='col-lg-12'>
+                    <form class='form-inline' action='index.php' method='post'>
+                        <div class='form-group'>
+                            <label for='email'>Email</label>
+                            <input type='text' class='form-control' id='email' name='email' placeholder='example@example.com'>
+                        </div>
 
-                    <div class='form-group'>
-                        <label for='password'>Mot de passe</label>
-                        <input type='password' class='form-control' id='password' name='password' placeholder=''>
-                    </div>
-                    <button type='submit' class='btn btn-default'>Connexion</button>
-                </form>
+                        <div class='form-group'>
+                            <label for='password'>Mot de passe</label>
+                            <input type='password' class='form-control' id='password' name='password' placeholder=''>
+                        </div>
+                        <button type='submit' class='btn btn-default'>Connexion</button>
+                    </form>
+                </div>
             </div>
-        </div>
-        ";
-
-        unset($_SESSION['logged']);
+            ";
         session_destroy();
+        }
     }
 
     else
@@ -40,32 +41,22 @@
         }
         else
         {
-
-            include('../../pdo_blog.php'); //connexion a la bdd
-
             $email = cleanPost($_POST['email']);
+            $password = cleanPost($_POST['password']);
 
-            $req = $bdd->prepare('SELECT login, email, password, priv_level FROM comptes WHERE email = :email');
+            //Recupere les infos par le mail ou le login(pseudo)
+            $req = $bdd->prepare('SELECT login, email, password, priv_level FROM comptes WHERE email = :email OR login = :login');
             $req->execute(Array(
-                'email' => $email
+                'email' => $email,
+                'login' => $email //utilise la meme variable
             ));
 
             $donnees = $req->fetch();
 
-            if ($donnees['email'] == cleanPost($_POST['email']) && $donnees['password'] == cleanPost($_POST['password']))
+            // Authentification sur mail ou login et sur password
+            if (($donnees['email'] == $email || $donnees['login'] == $email) && $donnees['password'] == $password)
             {
-                $_SESSION['logged'] = true;
-                $_SESSION['login'] = $donnees['login'];
-
-
-                echo "
-                    <div class='row'>
-                        <div class='col-lg-12'>
-                            <p>Bienvenue a toi" .$_SESSION['login'] ."!</p>
-                        </div>
-                    </div>
-                ";
-
+                logSucces($donnees);
             }
             else
             {
@@ -73,8 +64,18 @@
             }
         }
     }
-?>
 
+    if(isset($_SESSION['logged']))
+    {
+        echo "
+            <div class='row'>
+                <div class='col-lg-12'>
+                    <p>Bienvenue a toi " .$_SESSION['login'] ."!</p>
+                </div>
+            </div>
+        ";
+    }
+?>
 
     </div>
 

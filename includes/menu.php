@@ -1,7 +1,7 @@
 <?php
     if(isset($_SESSION['logged']))
     {
-        if ($donnees['priv_level'] == 1) //menu admin
+        if ($_SESSION['priv_level'] == 1) //menu admin
         {
             echo "
             <nav class='row'>
@@ -9,15 +9,14 @@
                     <li>Pim</li>
                     <li>Pam</li>
                     <li>Poum</li>
+                    <li><a href='backoffice.php'>Backoffice</a>
                     <form action='formulaire/logout.php' method='post'>
                         <button type='submit' class='btn btn-default'>Deconnexion</button>
                     </form>
                 </ul>
             </nav>";
         }
-
         //menu modo
-
         //menu user normal
     }
 
@@ -31,6 +30,5 @@
                 <li>lien 3</li>
             </ul>
         </nav>";
-
     }
 ?>

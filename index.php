@@ -7,18 +7,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta charset="utf-8">
         <title></title>
-
     </head>
+
     <body>
-        <?php include_once("fonctions/librairie.php") ?>
+        <?php include('../../pdo_blog.php'); //connexion a la bdd) ?>
+        <?php include_once("fonctions/librairie.php"); ?>
+
         <div class="container">
             <?php include_once("includes/header.php"); ?>
-
             <?php include_once("includes/menu.php"); ?>
-
-
         </div>
-
 
         <script type="text/javascript" src="./assets/js/script.js"></script>
     </body>

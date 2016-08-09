@@ -16,4 +16,14 @@
         session_destroy();
         echo "<a href='index.php'>Retour a l'acceuil</a>";
     }
+
+    function logSucces($donnees)
+    {
+        $_SESSION['logged'] = true;
+        $_SESSION['login'] = $donnees['login'];
+        $_SESSION['email'] = $donnees['email'];
+        $_SESSION['priv_level'] = $donnees['priv_level'];
+    }
+
+
 ?>
