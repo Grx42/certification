@@ -43,6 +43,7 @@
         {
             $email = cleanPost($_POST['email']);
             $password = cleanPost($_POST['password']);
+            //$hash = password_hash($password, PASSWORD_DEFAULT); //a ajouter lors de l'inscription ou changement de mot de passe uniquement
 
             //Recupere les infos par le mail ou le login(pseudo)
             $req = $bdd->prepare('SELECT login, email, password, priv_level FROM comptes WHERE email = :email OR login = :email');
@@ -53,7 +54,7 @@
             $donnees = $req->fetch();
 
             // Authentification sur mail ou login et sur password
-            if (($donnees['email'] == $email || $donnees['login'] == $email) && $donnees['password'] == $password)
+            if (($donnees['email'] == $email || $donnees['login'] == $email) && password_verify($password, $donnees['password']))
             {
                 logSucces($donnees);
             }
