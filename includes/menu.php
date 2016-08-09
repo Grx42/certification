@@ -16,8 +16,22 @@
                 </ul>
             </nav>";
         }
-        //menu modo
+
         //menu user normal
+        else
+        {
+            echo "
+            <nav class='row'>
+                <ul class='col-lg-3'>
+                    <li>lien 1</li>
+                    <li>lien 2</li>
+                    <li>lien 3</li>
+                    <form action='formulaire/logout.php' method='post'>
+                        <button type='submit' class='btn btn-default'>Deconnexion</button>
+                    </form>
+                </ul>
+            </nav>";
+        }
     }
 
     else //menu visiteur
