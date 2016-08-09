@@ -45,10 +45,9 @@
             $password = cleanPost($_POST['password']);
 
             //Recupere les infos par le mail ou le login(pseudo)
-            $req = $bdd->prepare('SELECT login, email, password, priv_level FROM comptes WHERE email = :email OR login = :login');
+            $req = $bdd->prepare('SELECT login, email, password, priv_level FROM comptes WHERE email = :email OR login = :email');
             $req->execute(Array(
-                'email' => $email,
-                'login' => $email //utilise la meme variable
+                'email' => $email
             ));
 
             $donnees = $req->fetch();
