@@ -1,6 +1,6 @@
 <?php
 
-    function cleanPost($user_input) //nettoie les donnees des forumulaires
+    function cleanPost($user_input) //nettoie les donnees des formulaires
     {
         $user_input = trim($user_input); // enleve les espace en debut et fin de string
         $user_input = strip_tags($user_input); // enleve les tags html <>
@@ -12,9 +12,9 @@
 
     function logError()
     {
-        echo "<p>Erreur. Compte ou mot de passe incorrect.</p><br>";
-        session_destroy();
+        echo "<p>Erreur. Compte ou mot de passe incorrect.</p>";
         echo "<a href='index.php'>Retour a l'acceuil</a>";
+        session_destroy();
     }
 
     function logSucces($donnees)

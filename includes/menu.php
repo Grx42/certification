@@ -1,48 +1,33 @@
-<?php
-    if(isset($_SESSION['logged']))
-    {
-        if ($_SESSION['priv_level'] == 1) //menu admin
-        {
-            echo "
-            <nav class='row'>
-                <ul class='col-lg-3'>
-                    <li>Pim</li>
-                    <li>Pam</li>
-                    <li>Poum</li>
-                    <li><a href='backoffice.php'>Backoffice</a>
-                    <form action='formulaire/logout.php' method='post'>
+<div class="row nav">
+    <ul class="nav nav-pills nav-justified">
+        <li role="presentation" <?php if($page == "index"){echo "class='active'";} ?>><a href="index.php">Accueil</a></li>
+        <li role="presentation" <?php if($page == "blog"){echo "class='active'";} ?>><a href="blog.php">Blog</a></li>
+        <li role="presentation" <?php if($page == "album"){echo "class='active'";} ?>><a href="album.php">Album</a></li>
+        <li role="presentation" <?php if($page == "contact"){echo "class='active'";} ?>><a href="contact.php">Contact</a></li>
+        <?php
+            if(isset($_SESSION['logged']))
+            {
+                //menu admin
+                if ($_SESSION['priv_level'] == 1)
+                {?>
+                    <li role="presentation" <?php if($page == "backoffice"){echo "class='active'";} ?>><a href='backoffice.php'>Backoffice</a>
+                    <li role="presentation"><form action='formulaire/logout.php' method='post'>
                         <button type='submit' class='btn btn-default'>Deconnexion</button>
-                    </form>
-                </ul>
-            </nav>";
-        }
+                    </form></li>
+                <?php
+                }
 
-        //menu user normal
-        else
-        {
-            echo "
-            <nav class='row'>
-                <ul class='col-lg-3'>
-                    <li>lien 1</li>
-                    <li>lien 2</li>
-                    <li>lien 3</li>
-                    <form action='formulaire/logout.php' method='post'>
-                        <button type='submit' class='btn btn-default'>Deconnexion</button>
-                    </form>
-                </ul>
-            </nav>";
-        }
-    }
+                //menu user normal
+                else
+                {
+                    echo "
+                        <li role=\"presentation\"><form action='formulaire/logout.php' method='post'>
+                            <button type='submit' class='btn btn-default'>Deconnexion</button>
+                        </form></li>
+                    ";
+                }
+            }
+        ?>
 
-    else //menu visiteur
-    {
-        echo "
-        <nav class='row'>
-            <ul class='col-lg-3'>
-                <li>lien 1</li>
-                <li>lien 2</li>
-                <li>lien 3</li>
-            </ul>
-        </nav>";
-    }
-?>
+    </ul>
+</div>

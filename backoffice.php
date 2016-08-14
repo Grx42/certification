@@ -1,62 +1,46 @@
 <?php session_start(); ?>
-
 <!DOCTYPE html>
 <html>
-
     <head>
-        <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <meta charset="utf-8">
+        <?php include_once("includes/head.php"); ?>
         <title>Back Office</title>
     </head>
 
+    <?php include_once('../../pdo_blog.php'); //connexion a la bdd) ?>
+    <?php include_once("fonctions/librairie.php"); ?>
+
+    <?php //sert a ajouter la classe active dans le menu
+        $page = "backoffice";
+    ?>
 
     <body>
-        <?php include_once('../../pdo_blog.php'); //connexion a la bdd) ?>
-        <?php include_once("fonctions/librairie.php"); ?>
+        <?php include_once("includes/header.php"); ?>
 
-        <div class="container">
-            <?php include_once("includes/header.php"); ?>
-            <?php include_once("includes/menu.php"); ?>
 
-            <?php
-
-                if(isset($_SESSION['priv_level']))
+        <?php
+            if(isset($_SESSION['priv_level']))
+            {
+                //l'acces a la page ne se fait que si l'administrateur arrive sur cette page
+                if ($_SESSION['priv_level'] == 1)
                 {
-                    //l'acces a la page ne se fait que si l'administrateur arrive sur cette page
-                    if ($_SESSION['priv_level'] == 1)
-                    {
-                        include_once("includes/header.php");
-                        include_once("includes/menu.php");
+                    echo "<a href='index.php'>Retour a l'accueil</a>";
+                    //ici tout le code du back office
+                    // possiblement le gerer avec include_once pour plus de lisibilitée
 
-                        echo "<a href='index.php'>Retour a l'accueil</a>";
-                    }
-
-                    else
-                    {
-                        echo "<h1>Restricted Area</h1>";
-                        echo "<a href='index.php'>Retour a l'accueil</a>";
-                    }
                 }
-
                 else
                 {
                     echo "<h1>Restricted Area</h1>";
                     echo "<a href='index.php'>Retour a l'accueil</a>";
                 }
-
-            ?>
-        </div>
-
-        <?php // Les test sont ici
-
-
-
+            }
+            else
+            {
+                echo "<h1>Restricted Area</h1>";
+                echo "<a href='index.php'>Retour a l'accueil</a>";
+            }
         ?>
 
-
-
-        <script type="text/javascript" src="./assets/js/script.js"></script>
+        <?php include_once("includes/scripts.php"); ?>
     </body>
 </html>

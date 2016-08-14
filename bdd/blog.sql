@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `blog` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `blog`;
 -- MySQL dump 10.13  Distrib 5.7.13, for Linux (x86_64)
 --
 -- Host: localhost    Database: blog
@@ -23,9 +25,15 @@ DROP TABLE IF EXISTS `articles`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `articles` (
-  `idarticles` int(11) NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (`idarticles`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `idArticles` int(11) NOT NULL AUTO_INCREMENT,
+  `idAuteur` int(11) NOT NULL DEFAULT '1',
+  `titre` varchar(255) NOT NULL DEFAULT 'titre',
+  `contenu` longtext NOT NULL,
+  `brouillon` tinyint(1) NOT NULL DEFAULT '0',
+  `datePublication` date DEFAULT NULL,
+  PRIMARY KEY (`idArticles`),
+  UNIQUE KEY `idarticles_UNIQUE` (`idArticles`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -34,6 +42,7 @@ CREATE TABLE `articles` (
 
 LOCK TABLES `articles` WRITE;
 /*!40000 ALTER TABLE `articles` DISABLE KEYS */;
+INSERT INTO `articles` VALUES (1,1,'Mon premier article','C\'est l\'histoire d\'un mec...',0,NULL);
 /*!40000 ALTER TABLE `articles` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -53,6 +62,7 @@ CREATE TABLE `comptes` (
   `avatar` varchar(255) DEFAULT NULL,
   `current_ip` varchar(45) DEFAULT NULL,
   `last_ip` varchar(45) DEFAULT NULL,
+  `date_inscription` date DEFAULT NULL,
   PRIMARY KEY (`idcomptes`),
   UNIQUE KEY `email` (`email`),
   UNIQUE KEY `login` (`login`)
@@ -65,7 +75,7 @@ CREATE TABLE `comptes` (
 
 LOCK TABLES `comptes` WRITE;
 /*!40000 ALTER TABLE `comptes` DISABLE KEYS */;
-INSERT INTO `comptes` VALUES (1,'admin','$2y$10$qEwa3kTzCnO4gzFxFpqPX.qMJ2W1nYYUgnmkQudYHYeoyy8BVfKa6','admin@certif.com',1,NULL,NULL,NULL),(2,'testuser','$2y$10$ibFuRrSqYo7FmOLJsLkw2Ox25KJgM5MvNtyltvMRU/lpei7f82jNy','test@test.com',3,NULL,NULL,NULL);
+INSERT INTO `comptes` VALUES (1,'admin','$2y$10$qEwa3kTzCnO4gzFxFpqPX.qMJ2W1nYYUgnmkQudYHYeoyy8BVfKa6','admin@certif.com',1,NULL,NULL,NULL,NULL),(2,'testuser','$2y$10$ibFuRrSqYo7FmOLJsLkw2Ox25KJgM5MvNtyltvMRU/lpei7f82jNy','test@test.com',3,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `comptes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -78,4 +88,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-08-10  0:08:58
+-- Dump completed on 2016-08-14  6:59:32

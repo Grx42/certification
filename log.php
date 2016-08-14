@@ -3,7 +3,7 @@
 <html>
     <head>
         <?php include_once('includes/head.php'); ?>
-        <title>index</title>
+        <title>Connexion</title>
     </head>
 
     <?php include_once('../../pdo_blog.php'); //connexion a la bdd) ?>
@@ -15,7 +15,7 @@
 
     <body>
         <?php include_once("includes/header.php"); ?>
-        
+
 
         <!-- code corps de page ici -->
         <section id="about-us">
