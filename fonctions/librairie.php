@@ -25,5 +25,39 @@
         $_SESSION['priv_level'] = $donnees['priv_level'];
     }
 
+    // ecrit l'adresse ip actuelle dans la bdd
+    function writeIP($bdd, $donnees, $current_ip)
+    {
+        $requete = $bdd->prepare('UPDATE comptes SET last_ip = :last_ip WHERE idcomptes = :idcomptes');
+        $requete->execute(array(
+            'last_ip' => $current_ip,
+            'idcomptes' => $donnees['idcomptes']
+        ));
+    }
+
+    function checkIP($bdd, $donnees)
+    {
+        $last_ip = $donnees["last_ip"];
+        $current_ip = $_SERVER["REMOTE_ADDR"];
+
+        if ($last_ip == null)
+        {
+            writeIP($bdd, $donnees, $current_ip);
+        }
+        elseif ($last_ip != $current_ip)
+        {
+            //averti l'utilisateur si l'adresse actuelle est differente de la derniere connue.
+            // a mettre en forme ! c'est tout crade comme ca.
+            echo "<h1>ATTENTION : Votre adresse ip a change depuis votre derniere visite.</h1>";
+            echo "<h1>Il est possible que vous vous soyez fait voler votre mot de passe.</h1>";
+            writeIP($bdd, $donnees, $current_ip);
+
+            echo "debug : la derniere adresse est " .$last_ip;
+        }
+        else
+        {
+            echo "Debug : c'est bon c'est la meme ip";
+        }
+    }
 
 ?>

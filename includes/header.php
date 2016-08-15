@@ -53,7 +53,7 @@
                         //$hash = password_hash($password, PASSWORD_DEFAULT); //a ajouter lors de l'inscription ou changement de mot de passe
 
                         //Recupere les infos par le mail ou le login(pseudo)
-                        $req = $bdd->prepare('SELECT login, email, password, priv_level FROM comptes WHERE email = :email OR login = :email');
+                        $req = $bdd->prepare('SELECT * FROM comptes WHERE email = :email OR login = :email');
                         $req->execute(Array(
                             'email' => $email
                         ));
@@ -64,6 +64,7 @@
                         if (($donnees['email'] == $email || $donnees['login'] == $email) && password_verify($password, $donnees['password']))
                         {
                             logSucces($donnees);
+                            checkIP($bdd, $donnees);
                         }
                         else
                         {
