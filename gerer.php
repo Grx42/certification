@@ -3,6 +3,7 @@
 <html>
     <head>
         <?php include_once('includes/head.php'); ?>
+        <link href="main.css" rel="stylesheet">
         <title>gérer</title>
     </head>
 
@@ -31,7 +32,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-4 ">
+                    <div class="col-sm-4">
                         <div class="liste">
                             <p>nom</p><br>
                             <p>autre nom</p><br>
