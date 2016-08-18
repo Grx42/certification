@@ -25,8 +25,11 @@
                 {
                     echo "<a href='index.php'>Retour a l'accueil</a>";
                     //ici tout le code du back office
-                    // possiblement le gerer avec include_once pour plus de lisibilitée
+                    ?>
 
+                        <a href="admin/index.php" style="color:black;">Lien vers le portail d'administration</a>
+
+                    <?php
                 }
                 else
                 {
