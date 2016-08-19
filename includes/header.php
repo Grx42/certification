@@ -22,7 +22,7 @@
                         echo "
                         <div class='row'>
                             <div class='col-lg-12'>
-                                <form class='form-inline' action='log.php' method='post'>
+                                <form class='form-inline' action='formulaire/log.php' method='post'>
                                     <div class='form-group'>
                                         <label for='email'>Email</label>
                                         <input type='text' class='form-control' id='email' name='email' placeholder='example@example.com'>
@@ -42,7 +42,7 @@
                 }
                 else
                 {   //teste si les champs sont envoyés vides
-                    
+
                 }
 
                 //message de bienvenue avec le login si la connexion est active
