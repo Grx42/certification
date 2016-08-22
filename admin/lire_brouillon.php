@@ -13,55 +13,99 @@
         <link href="assets/css/animate.css" rel="stylesheet">
         <link href="assets/css/main.css" rel="stylesheet">
         <link href="assets/css/responsive.css" rel="stylesheet">
+        <link href="assets/css/articles.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <div class="row">
-                <?php
-                    include_once("../../../pdo_blog.php");
+        <section id="gerer_articles">
+            <div class="container articles">
 
-                    $req = $bdd->prepare('SELECT titre, contenu, date_redac FROM articles WHERE brouillon = :monbool');
-                    $req->execute(array(
-                        'monbool' => 1
-                    ));
 
-                    while($articles = $req->fetch())
-                    {
-                        ?>
+                <div class="row">
 
-                        <div class="col-sm-4">
-                            <div class="single-blog">
-                                <h2><?php $articles['titre']; ?></h2>
-                                <ul class="post-meta">
-                                    <li><i class="fa fa-pencil-square-o"></i><strong> Posted By:</strong> Admin</li>
-                                    <li><i class="fa fa-clock-o"></i><strong> Posted On:</strong> <?php $articles['date_redac']; ?></li>
-                                </ul>
-                                <div class="blog-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                </div>
-                                <a href="" class="btn btn-primary" data-toggle="modal" data-target="#blog-detail">Read More</a>
-                            </div>
-                            <div class="modal fade" id="blog-detail" tabindex="-1" role="dialog" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-body">
-                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                            <img src="images/blog/3.jpg" alt="" />
-                                            <h2>Lorem ipsum dolor sit amet</h2>
-                                            <p><?php $articles['contenu']; ?></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <h2>Mes brouillons</h2>
+
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <h3>ID</h3>
                         </div>
 
-                        <?php
-                    }
+                        <div class="col-sm-2">
+                            <h3>Titre</h3>
+                        </div>
 
-                ?>
+                        <div class="col-sm-4 ">
+                            <h3>Article</h3>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <h3>Date</h3>
+                        </div>
+
+                        <div class="col-sm-1">
+                            <h3>Auteur</h3>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <h3>Publié</h3>
+                        </div>
+                    </div>
+                </div>
+
+                    <?php
+                        include_once("../../../pdo_blog.php");
+
+                        $req = $bdd->prepare('SELECT idArticles, titre, contenu, date_redac FROM articles WHERE brouillon = :est_un_brouillon ORDER BY date_redac DESC');
+                        $req->execute(array(
+                            'est_un_brouillon' => 1
+                        ));
+
+
+                        $i = 0;
+                        while($articles = $req->fetch())
+                        {
+                            $i++;
+                    ?>
+                            <div class="row">
+
+                                <div class="col-sm-1">
+                                    <?php echo $articles['idArticles']; ?>
+                                </div>
+
+                                <div class="col-sm-2">
+                                    <?php echo $articles['titre']; ?>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <?php echo $articles['contenu']; ?>
+                                </div>
+
+                                <div class="col-lg-2">
+                                    <?php echo $articles['date_redac']; ?>
+                                </div>
+
+                                <div class="col-lg-1">
+                                    <p>Admin</p>
+                                </div>
+
+
+                                <div class="col-sm-2 ">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch<?php echo $i; ?>">
+                                        <label class="onoffswitch-label" for="myonoffswitch<?php echo $i; ?>">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </div>
+                    <?php
+                        }
+                        $i = 0;
+                    ?>
+
             </div>
-        </div>
-
+        </section>
 
         <script type="text/javascript" src="assets/js/jquery.js"></script>
         <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -70,7 +114,6 @@
         <script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
         <script type="text/javascript" src="assets/js/jquery.parallax.js"></script>
         <script type="text/javascript" src="assets/js/main.js"></script>
-
 
     </body>
 </html>

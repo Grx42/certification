@@ -1,0 +1,13 @@
+titre + logo
+
+en haut a droite :
+    bouton de connexion
+        quand la souris passe dessus, un pop-up apparait en dessous
+        contenu du pop-up :
+            email/login
+            password
+            checkbox rester connecté.
+            un bouton connexion.
+
+    bouton inscription
+        quand la souris passe dessus, un pop-up apparait en dessous
