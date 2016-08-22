@@ -1,5 +1,5 @@
 <?php
-    include_once("../../../pdo_blog.php");
+    include_once("../../../../pdo_blog.php");
 
     $titre = $_POST['title'];
     $article = $_POST['article'];

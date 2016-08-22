@@ -18,7 +18,6 @@
             <input type="radio" name="brouillon" value="1">oui
             <input type="radio" name="brouillon" value="0">non
 
-            <input type="date" name="date_redac" value="<?php echo date("Y-m-d H:i:s")?>" hidden="">
             <input type="submit" name="add_article" value="Ajouter">
         </form>
 
