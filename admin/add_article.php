@@ -4,7 +4,7 @@
     $titre = $_POST['title'];
     $article = $_POST['article'];
     $brouillon = $_POST['brouillon'];
-    $date = $_POST['date_redac'];
+    $date = date("Y-m-d H:i:s");
 
     $req = $bdd->prepare('INSERT INTO articles(titre, contenu, brouillon, date_redac) VALUES(:titre, :contenu, :brouillon, :date_redac)');
 
@@ -15,15 +15,6 @@
         'date_redac' => $date
     ));
 
-    echo "Article ajouté</br>";
-    echo "<a href='admin.php'>Retour a la page admin</a>";
-
-
-/*
-    echo $titre;
-    echo $article;
-    echo $date;
-    echo $brouillon;
-*/
+    header("location: admin.php");
 
 ?>

@@ -41,7 +41,7 @@
                             <h3>Date</h3>
                         </div>
 
-                        <div class="col-sm-2">
+                        <div class="col-sm-1">
                             <h3>Auteur</h3>
                         </div>
 
@@ -82,7 +82,7 @@
                                     <?php echo $articles['date_redac']; ?>
                                 </div>
 
-                                <div class="col-lg-2">
+                                <div class="col-lg-1">
                                     <p>Admin</p>
                                 </div>
 
