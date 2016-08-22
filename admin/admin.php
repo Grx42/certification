@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <?php include_once('includes/head.php'); ?>
         <title></title>
     </head>
+
     <body>
         <h2>Ajouter un article</h2>
         <form class="add_article" action="formulaires/add_article.php" method="post">
@@ -26,5 +27,6 @@
             <a href="lire_publies.php">lire les articles publies</a>
         </div>
 
+        <?php include_once('includes/scripts.php'); ?>
     </body>
 </html>

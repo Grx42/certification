@@ -1,19 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <?php include_once('includes/head.php'); ?>
+        <link href="../assets/css/gw_lire_articles.css" rel="stylesheet">
         <title></title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="">
-        <meta name="description" content="">
-        <meta name="keywords" content="" />
-        <meta name="author" content="">
-        <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/prettyPhoto.css" rel="stylesheet">
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="assets/css/animate.css" rel="stylesheet">
-        <link href="assets/css/main.css" rel="stylesheet">
-        <link href="assets/css/responsive.css" rel="stylesheet">
-        <link href="assets/css/articles.css" rel="stylesheet">
     </head>
     <body>
         <section id="gerer_articles">
@@ -107,13 +97,7 @@
             </div>
         </section>
 
-        <script type="text/javascript" src="assets/js/jquery.js"></script>
-        <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.parallax.js"></script>
-        <script type="text/javascript" src="assets/js/main.js"></script>
+        <?php include_once('includes/scripts.php'); ?>
 
     </body>
 </html>

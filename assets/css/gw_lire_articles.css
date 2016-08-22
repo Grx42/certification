@@ -1,0 +1,85 @@
+/*======================
+======Gerer CSS=====
+========================*/
+#gerer_articles h2{
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+#gerer_articles h3{
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 40px;
+}
+
+#more_articles h2 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#more_articles button.plus{
+	margin-left: 48%;
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	font-size: 28px;
+	}
+
+.liste{
+	text-align: center;
+}
+
+.onoffswitch {
+    position: relative;
+	width: 100%;
+    -webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block;
+	overflow: hidden;
+	 cursor: pointer;
+    border: 2px solid #999999;
+	 border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block;
+	width: 200%;
+	margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block;
+	float: left;
+	 width: 50%;
+	 height: 30px;
+	 padding: 0;
+	 line-height: 30px;
+    font-size: 14px;
+	color: white;
+	font-family: Trebuchet, Arial, sans-serif;
+	font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "En Ligne";
+    text-align: center;
+    background-color: #31E865;
+	 color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Hors Ligne";
+    text-align: center;
+    background-color: #F20E3C; color: #FFFFFF;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
