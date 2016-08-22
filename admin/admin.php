@@ -6,7 +6,7 @@
     </head>
     <body>
         <h2>Ajouter un article</h2>
-        <form class="add_article" action="add_article.php" method="post">
+        <form class="add_article" action="formulaires/add_article.php" method="post">
             <label for="title">Titre</label>
             <input type="text" name="title" value="">
 
