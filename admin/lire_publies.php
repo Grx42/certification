@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="col-sm-2">
-                            <h3>Publié</h3>
+                            <h3>Etat</h3>
                         </div>
                     </div>
                 </div>

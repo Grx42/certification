@@ -1,6 +1,6 @@
-/*======================
-======Gerer CSS=====
-========================*/
+/*========================================
+====== Admin / Lire les articles CSS =====
+========================================*/
 #gerer_articles h2{
 	text-align: center;
 	margin-bottom: 70px;
@@ -66,15 +66,16 @@
     box-sizing: border-box;
 }
 .onoffswitch-inner:before {
-    content: "En Ligne";
+    content: "Publié";
     text-align: center;
     background-color: #31E865;
-	 color: #FFFFFF;
+	color: #FFFFFF;
 }
 .onoffswitch-inner:after {
-    content: "Hors Ligne";
+    content: "Brouillon";
     text-align: center;
-    background-color: #F20E3C; color: #FFFFFF;
+    background-color: #F20E3C;
+	color: #FFFFFF;
 }
 
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
