@@ -27,7 +27,7 @@
                     //ici tout le code du back office
                     ?>
 
-                        <a href="admin/index.php" style="color:black;">Lien vers le portail d'administration</a>
+                        <a href="admin/admin.php" style="color:black;">Lien vers le portail d'administration</a>
 
                     <?php
                 }
