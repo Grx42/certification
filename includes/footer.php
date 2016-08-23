@@ -1,4 +1,4 @@
-<!-- ------------------ FOOTER ------------------ -->
+<!-- FOOTER -->
 <footer>
     <div class="row">
         <h4>Suivez-nous</h4>

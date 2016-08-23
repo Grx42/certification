@@ -15,7 +15,7 @@
 
     <body>
         <?php include_once("includes/header.php"); ?>
-        
+
 
         <!-- code corps de page ici -->
         <section id="about-us">
@@ -77,5 +77,6 @@
 
 
         <?php include_once("includes/scripts.php"); ?>
+        <?php include_once("includes/footer.php"); ?>
     </body>
 </html>

@@ -15,7 +15,7 @@
 
     <body>
         <?php include_once("includes/header.php"); ?>
-        
+
 
         <!-- code corps de page ici -->
 
@@ -204,5 +204,6 @@
         </section> <!--/#portfolio-->
 
         <?php include_once("includes/scripts.php"); ?>
+        <?php include_once("includes/footer.php"); ?>
     </body>
 </html>

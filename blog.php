@@ -21,5 +21,6 @@
         <?php include_once("includes/articles.php"); ?>
 
         <?php include_once("includes/scripts.php"); ?>
+        <?php include_once("includes/footer.php"); ?>
     </body>
 </html>
