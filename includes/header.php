@@ -3,15 +3,13 @@
 <header id="navigation">
 
     <div class="row haed">
-        <div class="photo">
-            <img src="images/header.png" alt="" />
 
             <div class="bouton-connexion">
                 <a class="btn btn-default slider-btn animated fadeIn" href="#">Connexion</a>
             </div>
 
             <div class="titre">
-                <h1>Avant et apres</h1>
+                <h1>Le Blog de la Certif</h1>
             </div>
 
             <?php /*formulaire de connexion */
