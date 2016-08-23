@@ -5,7 +5,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	position: relative;
 	font-weight:400;
-	background: #f6f6f6;
 	color:#00535F;
 
 }
@@ -40,9 +39,11 @@ a {
 	transition: 300ms;
 	color:#fff;
 }
-
+.container h2 {
+	font-size: 40px;
+}
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
+	font-family: Georgia,Times New Roman,serif;
 	text-transform: uppercase;
 }
       /* --------------------------HEADER-------------------------- */
@@ -72,11 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 .row{
 	margin: 0;
 }
-.photo img{
-	height: 300px;
-	width: 100%;
-position: absolute; z-index: -2;
-}
+
 .bouton-connexion{
 	 width: 100%;
 }
@@ -89,24 +86,31 @@ width: 100%;
 background-image:url(images/img9.jpg);
 }
 .titre h1{
+font-family: 'Kaushan Script', cursive;
+text-shadow: 4px 4px 4px #aaa;
+font-size: 50px;
 text-align: center;
-padding-top: 175px;
+padding-top: 115px;
 margin:0;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
-background-color: #43484E;
+	background-color: #43484E;
 }
 
 /* --------------------------about-us-------------------------- */
 .cadre{
-	background-color: #07A5BB;
+	overflow: hidden; /* les dépassements seront masqués */
+	word-wrap: break-word; 
+	background-color: rgba( 0, 83, 95, 1.1);
     border-radius: 6px;
-		height: 200px;
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 30px;
-		margin-bottom: 30px;
+	height: 200px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	padding-left: 10px;	
+	color: #FFF;
 }
 .about{
 	text-align: center;
@@ -114,25 +118,24 @@ background-color: #43484E;
 
 
 /* --------------------------Sponsor-------------------------- */
-#sponsor{
-	text-align: center;
-	padding: 30px;
-}
-#sponsor img{
-	width: 200px;
-	height: auto;
-}
+
 
 
 /* ------------------------- footer -------------------------- */
 
 footer{
-background-color: #43484e;
+	background-color: #43484e;
+    display: block;
+    box-sizing: inherit;
 
 }
 footer h4{
-text-align: center;
-color: white;
+	color: #564267;
+}
+h4{
+	text-align: center;
+	color: black;
+
 
 }
 
@@ -146,7 +149,7 @@ color: white;
 #portfolio {
   padding-top:70px;
   padding-bottom: 100px;
-  background:#F6F6F6
+  background:#FFFFFF
 }
 
 #portfolio p,
