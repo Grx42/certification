@@ -85,6 +85,7 @@ sub {
 }
 img {
   border: 0;
+  box-shadow: 8px 8px 12px #aaa;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -3118,8 +3119,8 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #016d7c;
+  border-color: #494C4F;
 }
 .btn-primary:focus,
 .btn-primary.focus {
