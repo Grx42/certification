@@ -55,7 +55,7 @@
                             $i++;
                     ?>
                             <div class="row">
-                                <div class="col-sm-1">
+                                <div class="col-sm-1" id="articleID">
                                     <?php echo $articles['idArticles']; ?>
                                 </div>
 
@@ -95,6 +95,7 @@
         </section>
 
         <?php include_once('includes/scripts.php'); ?>
+        <script type="text/javascript" src="assets/js/editState.js"></script>
 
     </body>
 </html>
