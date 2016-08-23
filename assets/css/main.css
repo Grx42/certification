@@ -6,7 +6,7 @@ body {
 	position: relative;
 	font-weight:400;
 	color:#00535F;
-
+	background-image: url("images/soft-white-backgrounds.jpg");
 }
 .haed{
 	padding-bottom: 46px;
@@ -45,6 +45,11 @@ a {
 h1, h2, h3, h4, h5, h6 {
 	font-family: Georgia,Times New Roman,serif;
 	text-transform: uppercase;
+}
+h3,
+.h3 {
+  font-size: 24px;
+  text-shadow: 2px 2px 4px #999;
 }
       /* --------------------------HEADER-------------------------- */
 .slider-btn {
