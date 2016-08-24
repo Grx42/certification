@@ -42,9 +42,9 @@
 .onoffswitch-label {
     display: block;
 	overflow: hidden;
-	 cursor: pointer;
+	cursor: pointer;
     border: 2px solid #999999;
-	 border-radius: 20px;
+	border-radius: 20px;
 }
 .onoffswitch-inner {
     display: block;
@@ -55,10 +55,10 @@
 .onoffswitch-inner:before, .onoffswitch-inner:after {
     display: block;
 	float: left;
-	 width: 50%;
-	 height: 30px;
-	 padding: 0;
-	 line-height: 30px;
+	width: 50%;
+	height: 30px;
+	padding: 0;
+	line-height: 30px;
     font-size: 14px;
 	color: white;
 	font-family: Trebuchet, Arial, sans-serif;

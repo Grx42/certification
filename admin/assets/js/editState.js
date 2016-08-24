@@ -38,3 +38,14 @@ $(".onoffswitch input").click(function(){
         ajax_EditStateArticle(articleID, 1);
     }
 });
+
+$("#validation_modif").click(function(){
+    location.reload(true);
+});
+
+$(document).bind('keypress', function(e) {
+    if (e.keyCode == 116)
+    {
+        location.reload(true);
+    }
+});

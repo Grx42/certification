@@ -5,13 +5,18 @@
         <link href="../assets/css/gw_lire_articles.css" rel="stylesheet">
         <title></title>
     </head>
+
     <body>
         <section id="gerer_articles">
             <div class="container articles">
 
+                <div class="row">
+                    <div class="col-lg-offset-11 col-lg-1">
+                        <button type="button" name="validation" id="validation_modif">Valider les changements</button>
+                    </div>
+                </div>
 
                 <div class="row">
-
                     <h2>Mes brouillons</h2>
 
                     <div class="row">
@@ -49,14 +54,12 @@
                             'est_un_brouillon' => 1
                         ));
 
-
                         $i = 0;
                         while($articles = $req->fetch())
                         {
                             $i++;
                     ?>
                             <div class="row">
-
                                 <div class="col-sm-1" id="articleID">
                                     <?php echo $articles['idArticles']; ?>
                                 </div>
@@ -77,10 +80,9 @@
                                     <p>Admin</p>
                                 </div>
 
-
-                                <div class="col-sm-2 ">
+                                <div class="col-sm-2">
                                     <div class="onoffswitch">
-                                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch<?php echo $i; ?>">
+                                        <input type="checkbox" name="onoffswitch<?php echo $i; ?>" class="onoffswitch-checkbox" id="myonoffswitch<?php echo $i; ?>">
                                         <label class="onoffswitch-label" for="myonoffswitch<?php echo $i; ?>">
                                             <span class="onoffswitch-inner"></span>
                                             <span class="onoffswitch-switch"></span>
@@ -93,6 +95,12 @@
                         }
                         $i = 0;
                     ?>
+
+                    <div class="row">
+                        <div class="col-lg-offset-11 col-lg-1">
+                            <button type="button" name="validation" id="validation_modif">Valider les changements</button>
+                        </div>
+                    </div>
 
             </div>
         </section>
