@@ -10,7 +10,7 @@
                 //menu admin
                 if ($_SESSION['priv_level'] == 1)
                 {?>
-                    <li role="presentation" <?php if($page == "backoffice"){echo "class='active'";} ?>><a href='backoffice.php'>Backoffice</a>
+                    <li role="presentation"><a href='admin/index.php'>Interface d'administration</a>
                     <li role="presentation"><form action='formulaire/logout.php' method='post'>
                         <button type='submit' class='btn btn-default'>Deconnexion</button>
                     </form></li>
