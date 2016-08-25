@@ -45,6 +45,20 @@
                 //message de bienvenue avec le login si la connexion est active
                 if(isset($_SESSION['logged']))
                 {
+                    ?><div class='row'>
+                        <div class='col-lg-10'>
+                            </div>
+                        <div class='col-lg-2'>
+                            <form class='form-inline' action='formulaires/log.php' method='post'>
+
+                                <button type='submit' class='btn btn-default btn btn-default slider-btn animated fadeIn'>Deconnexion</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="titre">
+                        <h1>Le Blog de la Certif</h1>
+                    </div>
+                    <?php
                     echo "
                         <div class='row'>
                             <div class='col-lg-12'>
