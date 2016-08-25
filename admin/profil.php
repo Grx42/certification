@@ -23,17 +23,27 @@
         </section>
 
         <section>
-            changement pseudo
-            <form class="" action="formulaires/chg_pseudo.php" method="post">
-                <label for="new_pseudo">Entrez votre nouveau pseudo</label>
-                <input type="text" name="new_pseudo" value="">
-                
-                <input type="submit" name="envoyer_pseudo" value="Changer le pseudo">
+            changement mail
+            <form class="" action="formulaires/chg_mail.php" method="post">
+                <label for="actual_passwd">Mot de passe actuel</label>
+                <input type="password" name="actual_passwd" value="">
+                <label for="new_email">Entrez votre email actuel</label>
+                <input type="email" name="actual_email" value="">
+                <label for="new_email">Entrez votre nouvelle adresse mail</label>
+                <input type="email" name="new_email" value="">
+
+                <input type="submit" name="envoyer_email" value="Changer l'email">
             </form>
         </section>
 
         <section>
-            changement mail
+            changement pseudo
+            <form class="" action="formulaires/chg_pseudo.php" method="post">
+                <label for="new_pseudo">Entrez votre nouveau pseudo</label>
+                <input type="text" name="new_pseudo" value="">
+
+                <input type="submit" name="envoyer_pseudo" value="Changer le pseudo">
+            </form>
         </section>
 
         <section>
