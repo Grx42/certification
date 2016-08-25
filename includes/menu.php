@@ -11,9 +11,7 @@
                 if ($_SESSION['priv_level'] == 1)
                 {?>
                     <li role="presentation"><a href='admin/index.php'>Interface d'administration</a>
-                    <li role="presentation"><form action='formulaires/logout.php' method='post'>
-                        <button type='submit' class='btn btn-default'>Deconnexion</button>
-                    </form></li>
+                    
                 <?php
                 }
 
