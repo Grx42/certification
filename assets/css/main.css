@@ -150,9 +150,7 @@ h4{
 ========================*/
 
 #portfolio {
-  padding-top:70px;
   padding-bottom: 100px;
-
 }
 
 #portfolio p,
@@ -300,7 +298,9 @@ h4{
 	color:#fff;
 }
 
-
+.pagination{
+	padding-left: 42%;
+}
 /*==================================
 ====== Portfolio Hover effect=======
 ====================================*/
