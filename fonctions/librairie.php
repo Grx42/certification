@@ -60,4 +60,20 @@
         }
     }
 
+    function contactWrite($bdd, $pseudo, $email, $message, $your_timestamp, $current_ip)
+    {
+        $reqW = $bdd->prepare('INSERT INTO contact(pseudo, email, message, your_timestamp, ip) VALUES(:pseudo, :email, :message, :your_timestamp, :ip)');
+
+        $reqW->execute(array(
+            'pseudo' => $pseudo,
+            'email' => $email,
+            'message' => $message,
+            'your_timestamp' => $your_timestamp,
+            'ip' => $current_ip
+        ));
+        header('location: ../contact.php?msg=ok');
+    }
+
+
+
 ?>
