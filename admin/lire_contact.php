@@ -68,6 +68,7 @@
             <?php
                 }
                 $i = 0;
+                $req->closeCursor();
             ?>
 
         </div>

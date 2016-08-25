@@ -28,11 +28,12 @@
     // ecrit l'adresse ip actuelle dans la bdd
     function writeIP($bdd, $donnees, $current_ip)
     {
-        $requete = $bdd->prepare('UPDATE comptes SET last_ip = :last_ip WHERE idcomptes = :idcomptes');
-        $requete->execute(array(
+        $req = $bdd->prepare('UPDATE comptes SET last_ip = :last_ip WHERE idcomptes = :idcomptes');
+        $req->execute(array(
             'last_ip' => $current_ip,
             'idcomptes' => $donnees['idcomptes']
         ));
+        $req->closeCursor();
     }
 
     function checkIP($bdd, $donnees)
@@ -63,7 +64,6 @@
     function contactWrite($bdd, $pseudo, $email, $message, $your_timestamp, $current_ip)
     {
         $reqW = $bdd->prepare('INSERT INTO contact(pseudo, email, message, your_timestamp, ip) VALUES(:pseudo, :email, :message, :your_timestamp, :ip)');
-
         $reqW->execute(array(
             'pseudo' => $pseudo,
             'email' => $email,
@@ -71,6 +71,8 @@
             'your_timestamp' => $your_timestamp,
             'ip' => $current_ip
         ));
+        $reqW->closeCursor();
+        
         header('location: ../contact.php?msg=ok');
     }
 

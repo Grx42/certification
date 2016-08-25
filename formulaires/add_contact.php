@@ -16,6 +16,8 @@
         'current_ip' => $current_ip
     ));
     $verif = $req_verif->fetch();
+    $req_verif->closeCursor();
+
 
     if(!isset($verif['ip'])) //si l'ip n'y est pas, ecrit les donnees du formulaire de contact dans la bdd
     {

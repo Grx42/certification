@@ -30,6 +30,7 @@
                 'pseudo' => $new_pseudo,
                 'email' => $_SESSION['email']
             ));
+            $reqW->closeCursor();
             $_SESSION['login'] = $new_pseudo;
             header('location: ../profil.php?pseudo=changed');
         }
