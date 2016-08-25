@@ -145,8 +145,6 @@ h4{
 }
 
 
-
-
 /*======================
 ======Portfolio CSS=====
 ========================*/
@@ -154,7 +152,7 @@ h4{
 #portfolio {
   padding-top:70px;
   padding-bottom: 100px;
-  background:#FFFFFF
+
 }
 
 #portfolio p,
@@ -223,8 +221,7 @@ h4{
 	transition: all 0.5s linear 0s;
 }
 
-.efffect
- {
+.efffect h3 {
 	opacity: 0;
 	transform: scale(0);
 	-webkit-transition: all 0.5s linear 0s;
@@ -304,7 +301,6 @@ h4{
 }
 
 
-
 /*==================================
 ====== Portfolio Hover effect=======
 ====================================*/
@@ -349,8 +345,7 @@ h4{
    filter: alpha(opacity=0);
    opacity: 0;
 }
-.efffect
- {
+.efffect h3 {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
