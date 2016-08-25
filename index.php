@@ -16,7 +16,6 @@
     <body>
         <?php include_once("includes/header.php"); ?>
 
-
         <!-- code corps de page ici -->
         <section id="about-us">
             <div class="container about">
@@ -54,7 +53,7 @@
             </div>
         </section>
 
-    
+
 
 
         <?php include_once("includes/scripts.php"); ?>

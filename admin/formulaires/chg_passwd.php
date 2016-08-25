@@ -35,17 +35,17 @@
             }
             else
             {
-                header('location: ../profil.php?err=newPass_notEqual');
+                header('location: ../profil.php?errMdp=newPass_notEqual');
             }
         }
 
         else
         {
-            header('location: ../profil.php?err=wrongPassword');
+            header('location: ../profil.php?errMpd=wrongPassword');
         }
     }
     else
     {
-        header('location: ../profil.php?err=emptyField');
+        header('location: ../profil.php?errMdp=emptyField');
     }
 ?>

@@ -24,6 +24,12 @@
 
         <section>
             changement pseudo
+            <form class="" action="formulaires/chg_pseudo.php" method="post">
+                <label for="new_pseudo">Entrez votre nouveau pseudo</label>
+                <input type="text" name="new_pseudo" value="">
+                
+                <input type="submit" name="envoyer_pseudo" value="Changer le pseudo">
+            </form>
         </section>
 
         <section>
