@@ -1,8 +1,9 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
     <head>
         <?php include_once('includes/head.php'); ?>
-        
+
         <title>Administration</title>
     </head>
 

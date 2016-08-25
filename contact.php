@@ -43,9 +43,9 @@
                         <div class="col-sm-6">
                             <div id="contact-form-section">
                                 <div class="status alert alert-success" style="display: none"></div>
-                                <form id="contact-form" class="contact" name="contact-form" method="post" action="formail.php">
+                                <form id="contact-form" class="contact" name="contact-form" method="post" action="formulaires/add_contact.php">
                                     <div class="form-group">
-                                        <input type="text" name="name" class="form-control name-field" required="required" placeholder="Votre Nom"></div>
+                                        <input type="text" name="pseudo" class="form-control name-field" required="required" placeholder="Votre Nom"></div>
                                         <div class="form-group">
                                             <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Votre Email">
                                         </div>
