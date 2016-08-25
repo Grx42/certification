@@ -15,7 +15,7 @@ body {
 background-color: #016D7C;
 }
 body  section{
-	padding: 75px 0;
+	padding-bottom: 75px;
 }
 
 a:hover {
@@ -405,4 +405,142 @@ h4{
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
+}
+
+
+/*====================
+======Contact CSS=====
+======================*/
+
+#contact {
+	overflow:hidden;
+	position:relative;
+	padding-bottom:85px;
+}
+
+#contact .contact-heading {
+	padding-bottom:35px;
+	position: relative;
+	z-index: 10;
+}
+
+.pattern {
+	height:100%;
+	position:absolute;
+	width:100%;
+	z-index:1;
+	left:0;
+	bottom:0;
+	background-image:url(../images/pattern.png);
+	background-repeat:repeat;
+	opacity:0.2;
+}
+
+
+.contact-address {
+	background-color: #fff;
+	height:390px;
+	padding-top:85px
+}
+
+.contact-address .social-icons a i {
+	border-radius:0;
+	height:30px;
+	line-height:inherit;
+	width:30px;
+	border-width:0;
+	transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	margin-right:10px
+}
+.contact-address .social-icons i:hover {
+	transform: scale(.9);
+}
+
+.social-icons a {
+	color: #A2A2A2;
+	padding: 6px;
+}
+
+
+.social-icons a:hover {
+  color: #fc7700;
+}
+
+.contact-address .social-icons,
+.contact-address address {
+	z-index:2;
+	position:relative
+}
+
+.contact-address  p {
+	font-weight:800;
+	font-size:24px
+}
+
+.contact-address  p span {
+	color:#fc7700;
+
+}
+
+#contact-form-section {
+	padding:35px;
+	background-color: #FFF;
+	height:390px;
+}
+#contact-form-section .btn-primary {
+	background-color:#fc7700;
+	border-color:#f6f6f6;
+	border-radius:0;
+	padding:10px 35px;
+	text-transform:uppercase;
+	font-weight:800;
+	transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+#contact-form-section .btn-primary:hover {
+	background-color:#43484E
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form .btn-primary  {
+	position:relative;
+	z-index:2;
+}
+
+#contact-form .name-field,
+#contact-form .mail-field  {
+	width:49%;
+}
+
+#contact-form .name-field {
+	margin-right:2%;
+	float:left
+}
+
+#contact-form .mail-field {
+
+}
+
+#contact-form-section .form-control {
+	border-radius:0;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+#contact-form-section textarea {
+	resize:none
+}
+
+#contact-form-section .form-control:focus {
+	border-color: #fc7700;
+	outline: 0;
+	-webkit-box-shadow:none;
+	box-shadow:none;
 }

@@ -54,26 +54,7 @@
             </div>
         </section>
 
-        <section id="sponsor">
-            <h2>ils nous ont aidé et nous aide encore</h2>
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="#"><img src="images/simploniness.png" alt="" /></a>
-                </div>
-
-                <div class="col-md-3">
-                    <a href="#"><img src="images/simploniness.png" alt="" /></a>
-                </div>
-
-                <div class="col-md-3">
-                    <a href="#"><img src="images/simploniness.png" alt="" /></a>
-                </div>
-
-                <div class="col-md-3">
-                    <a href="#"><img src="images/simploniness.png" alt="" /></a>
-                </div>
-            </div>
-        </section>
+    
 
 
         <?php include_once("includes/scripts.php"); ?>
