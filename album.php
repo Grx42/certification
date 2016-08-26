@@ -36,11 +36,11 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/1.jpg" alt="">
                             </div>
-                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                            <a href="images/portfolio/1.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/1.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -51,11 +51,11 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/2.jpg" alt="">
                             </div>
-                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                            <a href="images/portfolio/2.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/2.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -66,11 +66,11 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/3.jpg" alt="">
                             </div>
-                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                            <a href="images/portfolio/3.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/3.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -81,11 +81,11 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/4.jpg" alt="">
                             </div>
-                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                            <a href="images/portfolio/4.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/4.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
