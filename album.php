@@ -40,7 +40,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -55,7 +55,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -70,7 +70,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -85,7 +85,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -99,7 +99,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -114,7 +114,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -129,7 +129,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -144,7 +144,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -159,7 +159,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -174,7 +174,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -189,7 +189,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
@@ -204,7 +204,7 @@
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
+                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
                         </div>
