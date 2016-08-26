@@ -43,6 +43,7 @@ $("#validation_modif").click(function(){
     location.reload(true);
 });
 
+// repere un keypress de la touche F5 et force un vidage du cache a la place
 $(document).bind('keypress', function(e) {
     if (e.keyCode == 116)
     {
