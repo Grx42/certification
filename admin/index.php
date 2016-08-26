@@ -39,9 +39,9 @@
             <ul class="nav menu">
                 <li class="active"><a href="index.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Dashboard</a></li>
                 <li><a href="ecrire_article.php"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> Ecrire un article</a></li>
-                <li><a href="lire_publies.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Consulter articles</a></li>
+                <li><a href="lire_publies.php"><svg class="glyph stroked notepad "><use xlink:href="#stroked-notepad"/></svg> Consulter articles</a></li>
                 <li><a href="lire_brouillon.php"><svg class="glyph stroked app-window"><use xlink:href="#stroked-app-window"></use></svg> Brouillons</a></li>
-                <li><a href="lire_contact.php"><svg class="glyph stroked table"><use xlink:href="#stroked-table"></use></svg> Messages</a></li>
+                <li><a href="lire_contact.php"><svg class="glyph stroked open letter"><use xlink:href="#stroked-open-letter"/></svg> Messages</a></li>
 
 
                 <li role="presentation" class="divider"></li>
@@ -64,11 +64,12 @@
                     <div class="panel panel-blue panel-widget ">
                         <div class="row no-padding">
                             <div class="col-sm-3 col-lg-5 widget-left">
-                                <svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>
+                                <i class="fa fa-facebook fa-4x" aria-hidden="true"></i>
                             </div>
+
                             <div class="col-sm-9 col-lg-7 widget-right">
-                                <div class="large">120</div>
-                                <div class="text-muted">New Orders</div>
+                                <div class="large">2200</div>
+                                <div class="text-muted">Follower Fb</div>
                             </div>
                         </div>
                     </div>
@@ -77,11 +78,12 @@
                     <div class="panel panel-orange panel-widget">
                         <div class="row no-padding">
                             <div class="col-sm-3 col-lg-5 widget-left">
-                                <svg class="glyph stroked empty-message"><use xlink:href="#stroked-empty-message"></use></svg>
+                                <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+
                             </div>
                             <div class="col-sm-9 col-lg-7 widget-right">
-                                <div class="large">52</div>
-                                <div class="text-muted">Comments</div>
+                                <div class="large">950</div>
+                                <div class="text-muted">Follower Twiter</div>
                             </div>
                         </div>
                     </div>
@@ -90,11 +92,11 @@
                     <div class="panel panel-teal panel-widget">
                         <div class="row no-padding">
                             <div class="col-sm-3 col-lg-5 widget-left">
-                                <svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>
+                                <i class="fa fa-github fa-4x" aria-hidden="true"></i>
                             </div>
                             <div class="col-sm-9 col-lg-7 widget-right">
-                                <div class="large">24</div>
-                                <div class="text-muted">New Users</div>
+                                <div class="large">2.9k</div>
+                                <div class="text-muted">Follower git hub</div>
                             </div>
                         </div>
                     </div>

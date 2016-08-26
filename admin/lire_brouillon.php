@@ -38,9 +38,9 @@
             <ul class="nav menu">
                 <li><a href="index.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Dashboard</a></li>
                 <li><a href="ecrire_article.php"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> Ecrire un article</a></li>
-                <li><a href="lire_publies.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Consulter articles</a></li>
+                <li><a href="lire_publies.php"><svg class="glyph stroked notepad "><use xlink:href="#stroked-notepad"/></svg> Consulter articles</a></li>
                 <li class="active"><a href="lire_brouillon.php"><svg class="glyph stroked app-window"><use xlink:href="#stroked-app-window"></use></svg> Brouillons</a></li>
-                <li><a href="lire_contact.php"><svg class="glyph stroked table"><use xlink:href="#stroked-table"></use></svg> Messages</a></li>
+                <li><a href="lire_contact.php"><svg class="glyph stroked open letter"><use xlink:href="#stroked-open-letter"/></svg> Messages</a></li>
 
 
                 <li role="presentation" class="divider"></li>
@@ -53,12 +53,6 @@
 
             <section id="gerer_articles">
                 <div class="container articles">
-
-                    <div class="row">
-                        <div class="col-lg-offset-11 col-lg-1">
-                            <button type="button" name="validation" id="validation_modif">Valider les changements</button>
-                        </div>
-                    </div>
 
                     <div class="row">
                         <h2>Mes brouillons</h2>
