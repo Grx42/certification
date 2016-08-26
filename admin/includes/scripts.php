@@ -5,3 +5,4 @@
 <script type="text/javascript" src="../assets/js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.parallax.js"></script>
 <script type="text/javascript" src="../assets/js/main.js"></script>
+<script type="text/javascript" src="../assets/js/lumino.glyphs.js"></script>
