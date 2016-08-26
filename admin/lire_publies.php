@@ -4,10 +4,11 @@
     <head>
         <?php include_once('includes/head.php'); ?>
         <link href="../assets/css/gw_lire_articles.css" rel="stylesheet">
-        <title></title>
+        <title>lire publier</title>
     </head>
 
     <body>
+            
         <?php include_once('includes/menu_admin.php'); ?>
         <section id="gerer_articles">
             <div class="container articles">
@@ -109,6 +110,7 @@
         </section>
 
         <?php include_once('includes/scripts.php'); ?>
+        <?php include_once("includes/footer.php"); ?>
         <script type="text/javascript" src="assets/js/editState.js"></script>
 
     </body>

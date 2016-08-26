@@ -8,6 +8,7 @@
     </head>
 
     <body>
+        
         <?php include_once('includes/menu_admin.php'); ?>
         <section id="gerer_articles">
             <div class="container articles">

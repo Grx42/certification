@@ -8,7 +8,7 @@
     <?php include_once('../../../pdo_blog.php'); //connexion a la bdd) ?>
     <?php include_once("../fonctions/librairie.php"); ?>
     <body>
-            <?php include_once("../includes/header.php"); ?>
+        
 
         <div class="row">
             <div class="col-sm-3">

@@ -135,7 +135,7 @@ footer{
 
 }
 footer h4{
-	color: #564267;
+	color: silver;
 }
 h4{
 	text-align: center;
@@ -346,10 +346,7 @@ h4{
    opacity: 0;
 }
 .efffect h3 {
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-   filter: alpha(opacity=0);
-   opacity: 0;
-   font-size:22px;
+   -ms-filter: "progid: DXImageTranwhite
    -webkit-transform: scale(0);
    -moz-transform: scale(0);
    -o-transform: scale(0);
