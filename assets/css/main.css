@@ -117,7 +117,7 @@ margin:0;
 	margin-bottom: 30px;
 	padding-left: 10px;
 	color: #FFF;
-	box-shadow: 5px 5px 5px black inset; 
+	box-shadow: 5px 5px 5px black inset;
 
 }
 .about{
@@ -145,6 +145,11 @@ h4{
 	color: black;
 
 
+}
+.btn-primary:hover {
+    background-color: #eee;
+	color: #016d7c;
+	border-color: #016d7c;
 }
 
 
