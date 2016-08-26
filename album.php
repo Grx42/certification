@@ -34,12 +34,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item html">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/1.jpg" alt="">
+                                <img src="images/portfolio/1.jpg" alt="Iness Grand Narbonne">
                             </div>
                             <a href="images/portfolio/big-item1.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>In'Ess Le Grand Narbonne</h4>
                                 <a href="images/portfolio/big-item1.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -49,12 +49,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item jooma">
                         <div class="view efffect" >
                             <div class="portfolio-image">
-                                <img src="images/portfolio/2.jpg" alt="">
+                                <img src="images/portfolio/2.jpg" alt="Pré rentrée">
                             </div>
                             <a href="images/portfolio/big-item2.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>Pré rentrée Simplon.IN'ESS</h4>
                                 <a href="images/portfolio/big-item2.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -64,12 +64,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item wordpress">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/3.jpg" alt="">
+                                <img src="images/portfolio/3.jpg" alt="la visite des locaux">
                             </div>
                             <a href="images/portfolio/big-item3.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>La visite d'IN'ESS</h4>
                                 <a href="images/portfolio/big-item3.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -79,12 +79,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item megento">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/4.jpg" alt="">
+                                <img src="images/portfolio/4.jpg" alt="rentrée de la promotion">
                             </div>
                             <a href="images/portfolio/big-item4.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>la rentrée de la première promotion de la formation Simplon.IN’ESS </h4>
                                 <a href="images/portfolio/big-item4.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -94,11 +94,11 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item html">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/5.jpg" alt="">
+                                <img src="images/portfolio/5.jpg" alt="premier meet up">
                             </div> <a href="images/portfolio/big-item5.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>Premier meet up de la formation Simplon</h4>
                                 <a href="images/portfolio/big-item5.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -108,12 +108,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item wordpress">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/6.jpg" alt="">
+                                <img src="images/portfolio/6.jpg" alt="Hour of Code">
                             </div>
                             <a href="images/portfolio/big-item6.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>Hour of Code</h4>
                                 <a href="images/portfolio/big-item6.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -123,12 +123,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item html">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/7.jpg" alt="">
+                                <img src="images/portfolio/7.jpg" alt="hackathon ERDF">
                             </div>
                             <a href="images/portfolio/big-item7.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>Premier hackathon ERDF - Simplon IN'ESS</h4>
                                 <a href="images/portfolio/big-item7.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -138,12 +138,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item joomla">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/8.jpg" alt="">
+                                <img src="images/portfolio/8.jpg" alt=" kids Coding des collèges">
                             </div>
                             <a href="images/portfolio/big-item8.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4> kids Coding des collèges du Grand Narbonne</h4>
                                 <a href="images/portfolio/big-item8.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -153,12 +153,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item html">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/9.jpg" alt="">
+                                <img src="images/portfolio/9.jpg" alt="Restitution des projets">
                             </div>
                             <a href="images/portfolio/big-item9.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>Restitution des projets de la Start Up Week by Simplon.co</h4>
                                 <a href="images/portfolio/big-item9.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -168,12 +168,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item wordpress">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/10.jpg" alt="">
+                                <img src="images/portfolio/10.jpg" alt="Hackathon Grand sud en Partage">
                             </div>
                             <a href="images/portfolio/big-item10.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>Premier Hackathon Grand sud en Partage by Simplon</h4>
                                 <a href="images/portfolio/big-item10.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -183,12 +183,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item joomla">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/11.jpg" alt="">
+                                <img src="images/portfolio/11.jpg" alt="Fin de la formation">
                             </div>
                             <a href="images/portfolio/big-item11.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>c'est la fin de la formation !</h4>
                                 <a href="images/portfolio/big-item11.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
@@ -198,12 +198,12 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item megento">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/12.jpg" alt="">
+                                <img src="images/portfolio/12.jpg" alt="les diplômes de la promotion">
                             </div>
                             <a href="images/portfolio/big-item12.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Lorem ipsum dolor sit amet consectetur</h4>
+                                <h4>Le Grand Narbonne remet les diplômes à la première promotion de Simplon.IN’ESS</h4>
                                 <a href="images/portfolio/big-item12.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
