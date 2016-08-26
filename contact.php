@@ -63,8 +63,8 @@
                 </div>
             </section> <!--/#contact-->
 
-        <?php include_once("includes/scripts.php"); ?>
         <?php include_once("includes/footer.php"); ?>
+        <?php include_once("includes/scripts.php"); ?>
 
     </body>
 </html>
