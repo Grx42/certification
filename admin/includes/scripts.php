@@ -5,3 +5,8 @@
 <script type="text/javascript" src="../assets/js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.parallax.js"></script>
 <script type="text/javascript" src="../assets/js/main.js"></script>
+<script type="text/javascript" src="../assets/js/lumino.glyphs.js"></script>
+<script type="text/javascript" src="../assets/js/easypiechart.js"></script>
+<script type="text/javascript" src="../assets/js/easypiechart-data.js"></script>
+<script type="text/javascript" src="../assets/js/chart-data.js"></script>
+<script type="text/javascript" src="../assets/js/chart.min.js"></script>
