@@ -14,7 +14,7 @@
         'brouillon' => $brouillon,
         'date_redac' => $date
     ));
-
+    $req->closeCursor();
     header("location: ../admin.php");
 
 ?>

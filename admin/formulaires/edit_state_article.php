@@ -10,6 +10,6 @@
         "est_un_brouillon" => $est_un_brouillon,
         "idArticles" => $idArticles
     ));
-
+    $req->closeCursor();
 
 ?>

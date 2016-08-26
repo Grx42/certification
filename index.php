@@ -16,7 +16,6 @@
     <body>
         <?php include_once("includes/header.php"); ?>
 
-
         <!-- code corps de page ici -->
         <section id="about-us">
             <div class="container about">
@@ -54,29 +53,9 @@
             </div>
         </section>
 
-        <section id="sponsor">
-            <h2>ils nous ont aidé et nous aide encore</h2>
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="#"><img src="images/simploniness.png" alt="" /></a>
-                </div>
-
-                <div class="col-md-3">
-                    <a href="#"><img src="images/simploniness.png" alt="" /></a>
-                </div>
-
-                <div class="col-md-3">
-                    <a href="#"><img src="images/simploniness.png" alt="" /></a>
-                </div>
-
-                <div class="col-md-3">
-                    <a href="#"><img src="images/simploniness.png" alt="" /></a>
-                </div>
-            </div>
-        </section>
 
 
-        <?php include_once("includes/scripts.php"); ?>
         <?php include_once("includes/footer.php"); ?>
+        <?php include_once("includes/scripts.php"); ?>
     </body>
 </html>

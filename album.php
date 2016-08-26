@@ -25,7 +25,7 @@
                 <div class="row text-center">
                     <div class="col-sm-8 col-sm-offset-2">
                         <h2 class="title-one">Portfolio</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                        <p>Voici un petit album photo retraçant notre petite escapade Simplon. </p>
                     </div>
                 </div>
 
@@ -36,12 +36,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/1.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -50,12 +51,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/2.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item4.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -64,12 +66,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/3.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -78,12 +81,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/4.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -91,12 +95,13 @@
                         <div class="view efffect">
                             <div class="portfolio-image">
                                 <img src="images/portfolio/5.jpg" alt="">
-                            </div> <div class="mask text-center">
+                            </div> <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -105,12 +110,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/6.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -119,12 +125,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/7.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -133,12 +140,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/8.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -147,12 +155,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/9.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -161,12 +170,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/10.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -175,12 +185,13 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/11.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item3.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -189,21 +200,40 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/12.jpg" alt="">
                             </div>
-                            <div class="mask text-center">
+                            <a href="images/portfolio/big-item.jpg" data-gallery="prettyPhoto">
+                                <div class="mask text-center">
                                 <h3>Novel</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="images/portfolio/big-item4.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+                                <a href="#" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
+                            </a>
                         </div>
                     </div>
 
                 </div>
+                <nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
             </div>
 
         </section> <!--/#portfolio-->
 
-        <?php include_once("includes/scripts.php"); ?>
         <?php include_once("includes/footer.php"); ?>
+        <?php include_once("includes/scripts.php"); ?>
+
     </body>
 </html>

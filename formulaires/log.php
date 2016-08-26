@@ -22,7 +22,7 @@
         ));
 
         $donnees = $req->fetch();
-
+        $req->closeCursor();
         // Authentification sur mail ou login et sur password
         if (($donnees['email'] == $email || $donnees['login'] == $email) && password_verify($password, $donnees['password']))
         {

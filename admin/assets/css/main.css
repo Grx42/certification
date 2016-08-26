@@ -6,14 +6,13 @@ body {
 	position: relative;
 	font-weight:400;
 	color:#00535F;
-	background-image: url(images/soft-white-backgrounds.jpg);
-
+	background-image: url("images/soft-white-backgrounds.jpg");
 }
 .haed{
 	padding-bottom: 46px;
 }
 .nav{
-	background-color: #016D7C;
+background-color: #016D7C;
 }
 body  section{
 	padding-bottom: 75px;
@@ -40,7 +39,7 @@ a {
 	transition: 300ms;
 	color:#fff;
 }
-h2 {
+h2, .h2 {
 	font-size: 40px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -117,8 +116,6 @@ margin:0;
 	margin-bottom: 30px;
 	padding-left: 10px;
 	color: #FFF;
-	box-shadow: 5px 5px 5px black inset; 
-
 }
 .about{
 	text-align: center;
@@ -138,7 +135,7 @@ footer{
 
 }
 footer h4{
-	color: silver;
+	color: #564267;
 }
 h4{
 	text-align: center;
@@ -349,7 +346,10 @@ h4{
    opacity: 0;
 }
 .efffect h3 {
-   -ms-filter: "progid: DXImageTranwhite
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   font-size:22px;
    -webkit-transform: scale(0);
    -moz-transform: scale(0);
    -o-transform: scale(0);

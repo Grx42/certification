@@ -20,7 +20,7 @@
         <!-- code corps de page ici -->
         <?php include_once("includes/articles.php"); ?>
 
-        <?php include_once("includes/scripts.php"); ?>
         <?php include_once("includes/footer.php"); ?>
+        <?php include_once("includes/scripts.php"); ?>
     </body>
 </html>
