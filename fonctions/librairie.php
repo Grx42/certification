@@ -72,10 +72,15 @@
             'ip' => $current_ip
         ));
         $reqW->closeCursor();
-        
+
         header('location: ../contact.php?msg=ok');
     }
 
-
+    function wrap_string($text_a_wrapper)
+    {
+        $text_a_wrapper = substr($text_a_wrapper, 0, 144);
+        $text_a_wrapper = $text_a_wrapper ." ...";
+        return $text_a_wrapper;
+    }
 
 ?>

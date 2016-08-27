@@ -19,6 +19,10 @@
 
             while($articles = $req->fetch())
             {
+                $contenu_wrapped = wrap_string($articles['contenu']);
+
+
+
         ?>
 
         <div class="row">
@@ -30,7 +34,7 @@
                         <li><i class="fa fa-clock-o"></i><strong> Posted On:</strong><?php echo $articles['date_redac']; ?></li>
                     </ul>
                     <div class="blog-content">
-                        <p><?php echo $articles['contenu']; ?></p>
+                        <p><?php echo $contenu_wrapped; ?></p>
                     </div>
                     <a href="" class="btn btn-primary" data-toggle="modal" data-target="#blog-detail<?php echo $articles['idArticles']; ?>">Read More</a>
                 </div>
@@ -47,39 +51,11 @@
                 </div>
             </div>
         <?php
-        }
+            }
 
-        $req->closeCursor();
+            $req->closeCursor();
 
         ?>
-
-
-            <?php /*
-            <div class="col-sm-4">
-                <div class="single-blog">
-                    <h3>Titre 3</h3>
-                    <ul class="post-meta">
-                        <li><i class="fa fa-pencil-square-o"></i><strong> Posted By:</strong> John</li>
-                        <li><i class="fa fa-clock-o"></i><strong> Posted On:</strong> Apr 15 2014</li>
-                    </ul>
-                    <div class="blog-content">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                    </div>
-                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#blog-three">Read More</a>
-                </div>
-                <div class="modal fade" id="blog-three" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h2>Sous-Titre 3</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             */ ?>
 
         </div>
     </div>
