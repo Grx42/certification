@@ -8,17 +8,24 @@
             $upload_infos = pathinfo($_FILES['avatar_file']['name']);
             $upload_extension = $upload_infos['extension'];
             $allowed_extension = ['jpg', 'jpeg', 'png', 'gif'];
-            //nomme l'avatar avec le pseudo de l'utilisateur + son extension de depart
-            $new_name = $_SESSION['login'] ."." .$upload_infos['extension'];
+            //nomme l'avatar avec l'id du compte utilisateur + son extension de depart
+            $new_name = $_SESSION['idcomptes'] ."." .$upload_infos['extension'];
 
             if(in_array($upload_extension, $allowed_extension))
             {
                 include_once('../../fonctions/librairie.php');
-                removePreviousAvatar($_SESSION['login']);
-                move_uploaded_file($_FILES['avatar_file']['tmp_name'], '../../avatars/' . basename($new_name));
+                removePreviousAvatar($_SESSION['idcomptes']);
+                move_uploaded_file($_FILES['avatar_file']['tmp_name'], '../../avatars/' . basename($new_name));//deplace le fichier tmp dans avatars/ et le nomme
+
+                include_once("../../../../pdo_blog.php");
+                $req = $bdd->prepare('UPDATE comptes SET avatar = :path_file WHERE idcomptes = :idcomptes');
+                $req->execute(array(
+                    'path_file' => $new_name,
+                    'idcomptes' => $_SESSION['idcomptes']
+                ));
+                $req->closeCursor();
                 header('location: ../profil.php?upload=ok');
             }
-
         }
         else
         {

@@ -22,6 +22,7 @@
         $_SESSION['logged'] = true;
         $_SESSION['login'] = $donnees['login'];
         $_SESSION['email'] = $donnees['email'];
+        $_SESSION['idcomptes'] = $donnees['idcomptes'];
         $_SESSION['priv_level'] = $donnees['priv_level'];
     }
 
@@ -83,21 +84,18 @@
         return $text_a_wrapper;
     }
 
-    function removePreviousAvatar($login)
+    function removePreviousAvatar($idcomptes)
     {
         $extensions = ['.jpg', '.jpeg', '.png', '.gif'];
 
         for($i = 0; $i < sizeof($extensions); $i++)
         {
-            $file = 'avatars/'.$login .$extensions[$i];
+            $file = '../../avatars/'.$idcomptes .$extensions[$i];
             if(file_exists($file))
             {
                 unlink($file);
             }
         }
     }
-
-
-
 
 ?>
