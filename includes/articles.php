@@ -20,9 +20,6 @@
             while($articles = $req->fetch())
             {
                 $contenu_wrapped = wrap_string($articles['contenu']);
-
-
-
         ?>
 
         <div class="row">
