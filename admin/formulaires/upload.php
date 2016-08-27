@@ -3,7 +3,7 @@
 
     if(isset($_FILES['avatar_file']) && $_FILES['avatar_file']['error'] == 0)
     {
-        if($_FILES['avatar_file']['size'] <= 1000000)
+        if($_FILES['avatar_file']['size'] <= 1000000) //taille inferieure a 1mo
         {
             $upload_infos = pathinfo($_FILES['avatar_file']['name']);
             $upload_extension = $upload_infos['extension'];
@@ -13,6 +13,8 @@
 
             if(in_array($upload_extension, $allowed_extension))
             {
+                include_once('../../fonctions/librairie.php');
+                removePreviousAvatar($_SESSION['login']);
                 move_uploaded_file($_FILES['avatar_file']['tmp_name'], '../../avatars/' . basename($new_name));
                 header('location: ../profil.php?upload=ok');
             }

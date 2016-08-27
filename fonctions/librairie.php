@@ -83,4 +83,21 @@
         return $text_a_wrapper;
     }
 
+    function removePreviousAvatar($login)
+    {
+        $extensions = ['.jpg', '.jpeg', '.png', '.gif'];
+
+        for($i = 0; $i < sizeof($extensions); $i++)
+        {
+            $file = 'avatars/'.$login .$extensions[$i];
+            if(file_exists($file))
+            {
+                unlink($file);
+            }
+        }
+    }
+
+
+
+
 ?>
