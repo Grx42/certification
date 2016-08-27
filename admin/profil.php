@@ -48,6 +48,13 @@
 
         <section>
             changement avatar
+            <form action="formulaires/upload.php" method="post" enctype="multipart/form-data">
+                <label for="avatar_file">Envoyer votre avatar</label>
+                <p>Formats acceptés: .jpg .png .gif</p>
+                <p>Taille max: 1 Mo</p>
+                <input type="file" name="avatar_file">
+                <input type="submit" value="Envoyer le fichier">
+            </form>
         </section>
 
 
