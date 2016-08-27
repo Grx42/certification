@@ -5,28 +5,16 @@
     <head>
         <?php include_once('includes/head.php'); ?>
         <link href="../assets/css/gw_lire_articles.css" rel="stylesheet">
-        <title>ecrire article</title>
+        <title>Consulter les articles publiés</title>
     </head>
+
     <?php include_once('../../../pdo_blog.php'); //connexion a la bdd) ?>
     <?php include_once("../fonctions/librairie.php"); ?>
+
     <body>
+        <?php $page_admin = "r_articles"; //sert a ajouter la classe active dans le menu ?>
         <?php include_once('includes/header.php'); ?>
-
-        <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
-
-            <ul class="nav menu">
-                <li><a href="index.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Dashboard</a></li>
-                <li><a href="ecrire_article.php"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> Ecrire un article</a></li>
-                <li class="active"><a href="lire_publies.php"><svg class="glyph stroked notepad "><use xlink:href="#stroked-notepad"/></svg> Consulter articles</a></li>
-                <li><a href="lire_brouillon.php"><svg class="glyph stroked app-window"><use xlink:href="#stroked-app-window"></use></svg> Brouillons</a></li>
-                <li><a href="lire_contact.php"><svg class="glyph stroked open letter"><use xlink:href="#stroked-open-letter"/></svg> Messages</a></li>
-
-
-                <li role="presentation" class="divider"></li>
-                <li><a href="../index.php"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> revenir à l'accueil</a></li>
-            </ul>
-
-        </div><!--/.sidebar-->
+        <?php include_once('includes/menu_admin.php'); ?>
 
         <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 

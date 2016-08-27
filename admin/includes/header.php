@@ -13,7 +13,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg><?php echo $_SESSION['login']; ?><span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="profil.php"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Editer le profil</a></li>
-                        <li><a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Logout</a></li>
+                        <li><a href="../index.php"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg>Retourner sur le site</a></li>
                     </ul>
                 </li>
             </ul>
