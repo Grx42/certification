@@ -3,6 +3,7 @@
 <html>
     <head>
         <?php include_once('includes/head.php'); ?>
+        <link href="../assets/css/gw_lire_articles.css" rel="stylesheet">
         <title>ecrire article</title>
     </head>
     <?php include_once('../../../pdo_blog.php'); //connexion a la bdd) ?>
