@@ -9,8 +9,8 @@
     <?php include_once('../../../pdo_blog.php'); //connexion a la bdd) ?>
     <?php include_once("../fonctions/librairie.php"); ?>
     <body>
-        <?php include_once('includes/menu_admin.php'); ?>
-        
+        <?php include_once('includes/header.php'); ?>
+
         <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
 
             <ul class="nav menu">
