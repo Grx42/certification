@@ -1,12 +1,12 @@
 jQuery(function($) {'use strict',
 
-	
+
 	// all Parallax Section
 	$(window).load(function(){'use strict',
 		$("#services").parallax("50%", 0.3);
 		$("#clients").parallax("50%", 0.3);
 	});
-	
+
 	// portfolio filter
 	$(window).load(function(){'use strict',
 		$portfolio_selectors = $('.portfolio-filter >li>a');
@@ -16,7 +16,7 @@ jQuery(function($) {'use strict',
 				itemSelector : '.col-sm-3',
 				layoutMode : 'fitRows'
 			});
-			
+
 			$portfolio_selectors.on('click', function(){
 				$portfolio_selectors.removeClass('active');
 				$(this).addClass('active');
@@ -26,7 +26,7 @@ jQuery(function($) {'use strict',
 			});
 		}
 	});
-	
+
 	//Pretty Photo
 	 $("a[data-gallery^='prettyPhoto']").prettyPhoto({
 	  social_tools: false
@@ -49,7 +49,7 @@ jQuery(function($) {'use strict',
 		Scroll();
 	});
 
-	$('.navbar-collapse ul li a').click(function() {  
+	$('.navbar-collapse ul li a').click(function() {
 		$('html, body').animate({scrollTop: $(this.hash).offset().top - 79}, 1000);
 		return false;
 	});
@@ -90,7 +90,7 @@ function Scroll() {
 		if ( winTop > contentTop[i] - rangeTop ){
 			$('.navbar-collapse li.scroll')
 			.removeClass('active')
-			.eq(i).addClass('active');			
+			.eq(i).addClass('active');
 		}
 	})
 
@@ -106,5 +106,3 @@ function Scroll() {
 		},6000);
 	});
 });
-
-
