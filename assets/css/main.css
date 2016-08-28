@@ -444,7 +444,7 @@ h4{
 	z-index:1;
 	left:0;
 	bottom:0;
-	background-image:url(../images/pattern.png);
+	/*background-image:url(../../images/pattern.png);*/
 	background-repeat:repeat;
 	opacity:0.2;
 }
