@@ -15,6 +15,6 @@
         'date_redac' => $date
     ));
     $req->closeCursor();
-    header("location: ../admin.php");
+    header("location: ../ecrire_article.php?article=send");
 
 ?>
