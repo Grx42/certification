@@ -3,6 +3,7 @@
 <html>
     <head>
         <?php include_once('includes/head.php'); ?>
+        <link href="../assets/css/gw_lire_articles.css" rel="stylesheet">
         <title>Consulter les messages de contact</title>
     </head>
 
@@ -53,7 +54,7 @@
                                 <h3>Adresse IP</h3>
                             </div>
                         </div>
-                        
+
                         <div class="row">
                             <div class="col-sm-3" id="articleID">
                                 <?php echo $contact['idcontact']; ?>
@@ -76,6 +77,7 @@
                                 <?php echo $contact['message']; ?>
                             </div>
                         </div>
+                        <a href="formulaires/delete_contact.php?id=<?php echo $contact['idcontact']; ?>"><button type="button" name="delete" class="modifier" id="mod_article">supprimer le message</button></a>
                 <?php
                     }
                     $i = 0;
