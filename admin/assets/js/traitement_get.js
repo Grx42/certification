@@ -1,9 +1,12 @@
 function printmsg(afficher_string)
 {
-
+    $("#message_get").text(afficher_string);
+    $("#div_get").show(100);
+    $("#div_get").delay(10000).hide(0);
 }
 
 $(document).ready(function(e){
+    $("#div_get").hide(0);
     var w_article = $(document).getUrlParam("w_article");
     var u_article = $(document).getUrlParam("u_article");
     var d_article = $(document).getUrlParam("d_article");
@@ -16,7 +19,7 @@ $(document).ready(function(e){
     {
         if( w_article == "ok")
         {
-            //printmsg("L'article a été ajouté à la base de donnée.");
+            printmsg("L'article a été ajouté à la base de donnée.");
         }
     }
 
@@ -24,7 +27,7 @@ $(document).ready(function(e){
     {
         if( u_article == "ok")
         {
-            //printmsg("L'article a été mis à jour.");
+            printmsg("L'article a été mis à jour.");
         }
     }
 
@@ -32,7 +35,7 @@ $(document).ready(function(e){
     {
         if( d_article == "ok")
         {
-            //printmsg("L'article a été supprimé.");
+            printmsg("L'article a été supprimé.");
         }
     }
 
@@ -40,13 +43,13 @@ $(document).ready(function(e){
     {
         if( email == "changed")
         {
-            //printmsg("L'adresse email a été mise à jour.");
+            printmsg("L'adresse email a été mise à jour.");
         }
         else if ( email == "wrongPassword" ) {
-            //printmsg("Erreur: Le mot de passe est incorrect.");
+            printmsg("Erreur: Le mot de passe est incorrect.");
         }
         else if ( email == "emptyFields" ) {
-            //printmsg("Erreur: au moins un des champs est vide.");
+            printmsg("Erreur: au moins un des champs est vide.");
         }
     }
 
@@ -54,16 +57,16 @@ $(document).ready(function(e){
     {
         if(pass == "changed")
         {
-            //printmsg("Le mot de passe a été mis à jour.");
+            printmsg("Le mot de passe a été mis à jour.");
         }
         else if (pass == "newPass_notEqual" ) {
-            //printmsg("Erreur: Le nouveau mot de passe ne correspond pas à sa confirmation.");
+            printmsg("Erreur: Le nouveau mot de passe ne correspond pas à sa confirmation.");
         }
         else if ( pass == "wrongPassword" ) {
-            //printmsg("Erreur: Le mot de passe actuel n'est pas le bon.");
+            printmsg("Erreur: Le mot de passe actuel n'est pas le bon.");
         }
         else if ( pass == "emptyFields" ) {
-            //printmsg("Erreur: au moins un des champs est vide.");
+            printmsg("Erreur: au moins un des champs est vide.");
         }
     }
 
@@ -71,13 +74,13 @@ $(document).ready(function(e){
     {
         if( pseudo == "changed")
         {
-            //printmsg("Le pseudo a été mis à jour.");
+            printmsg("Le pseudo a été mis à jour.");
         }
         else if ( pseudo == "alreadyUsed" ) {
-            //printmsg("Erreur: Le pseudo est déjà prit par un autre utilisateur.");
+            printmsg("Erreur: Le pseudo est déjà prit par un autre utilisateur.");
         }
         else if ( pseudo == "emptyFields" ) {
-            //printmsg("Erreur: au moins un des champs est vide.");
+            printmsg("Erreur: au moins un des champs est vide.");
         }
     }
 
@@ -85,16 +88,16 @@ $(document).ready(function(e){
     {
         if( upload == "ok")
         {
-            //printmsg("Votre nouvel avatar est prêt a être utilisé !");
+            printmsg("Votre nouvel avatar est prêt a être utilisé !");
         }
         else if ( upload == "tailleSup" ) {
-            //printmsg("Erreur: La taille du fichier est supérieure à 1mo.");
+            printmsg("Erreur: La taille du fichier est supérieure à 1mo.");
         }
         else if ( upload == "wrongExt" ) {
-            //printmsg("Erreur: Votre avatar n'a pas le bon format. (.jpg .jpeg .png ou .gif)");
+            printmsg("Erreur: Votre avatar n'a pas le bon format. (.jpg .jpeg .png ou .gif)");
         }
         else if ( upload == "emptyFields" ) {
-            //printmsg("Erreur: au moins un des champs est vide.");
+            printmsg("Erreur: au moins un des champs est vide.");
         }
     }
 

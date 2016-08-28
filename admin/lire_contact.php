@@ -14,9 +14,7 @@
         <?php $page_admin = "r_contacts"; //sert a ajouter la classe active dans le menu ?>
         <?php include_once('includes/header.php'); ?>
         <?php include_once('includes/menu_admin.php'); ?>
-        <div id="div_get" style="background-color: #F6BB42; width: 100%; height: 10px; text-align: center;">
-            <p id="message_get" style="color: black;"></p>
-        </div>
+        <?php include_once('includes/traitement_get.php'); ?>
 
         <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 
