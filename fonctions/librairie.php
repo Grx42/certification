@@ -24,6 +24,7 @@
         $_SESSION['email'] = $donnees['email'];
         $_SESSION['idcomptes'] = $donnees['idcomptes'];
         $_SESSION['priv_level'] = $donnees['priv_level'];
+        $_SESSION['avatar'] = $donnees['avatar'];
     }
 
     // ecrit l'adresse ip actuelle dans la bdd

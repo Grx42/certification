@@ -10,7 +10,7 @@
             <a class="navbar-brand" href="#"><span>Le Blog de la Certif</span> : Zone Administrateur</a>
             <ul class="user-menu">
                 <li class="dropdown pull-right">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg><?php echo $_SESSION['login']; ?><span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="../avatars/<?php echo $_SESSION['avatar']; ?>" alt="avtar" style="height:30px;width:30px;"/><?php echo $_SESSION['login']; ?><span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="profil.php"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Editer le profil</a></li>
                         <li><a href="../index.php"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg>Retourner sur le site</a></li>
