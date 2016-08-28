@@ -35,11 +35,11 @@
         }
         else
         {
-            header('location: ../profil.php?errMail=wrongPassword');
+            header('location: ../profil.php?email=wrongPassword');
         }
     }
     else
     {
-        header('location: ../profil.php?errMail=emptyFields');
+        header('location: ../profil.php?email=emptyFields');
     }
 ?>

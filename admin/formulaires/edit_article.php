@@ -14,5 +14,5 @@
         'date_redac' => $date
     ));
     $req->closeCursor();
-    header("location: ../modif_article.php?edit=ok");
+    header("location: ../modif_article.php?u_article=ok");
 ?>

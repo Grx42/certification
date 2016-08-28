@@ -36,11 +36,11 @@
         }
         else
         {
-            header('location: ../profil.php?errLog=alreadyUsed');
+            header('location: ../profil.php?pseudo=alreadyUsed');
         }
     }
     else
     {
-        header('location: ../profil.php?errLog=emptyField');
+        header('location: ../profil.php?pseudo=emptyFields');
     }
 ?>

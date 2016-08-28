@@ -14,6 +14,9 @@
         <?php $page_admin = "r_articles"; //sert a ajouter la classe active dans le menu ?>
         <?php include_once('includes/header.php'); ?>
         <?php include_once('includes/menu_admin.php'); ?>
+        <div id="div_get" style="background-color: #F6BB42; width: 100%; height: 10px; text-align: center;">
+            <p id="message_get" style="color: black;"></p>
+        </div>
 
         <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 
@@ -100,6 +103,7 @@
                                 </div>
                             </div>
                             <a href="modif_article.php?id=<?php echo $articles['idArticles']; ?>"><button type="button" name="modifier" class="modifier" id="mod_article">modifier l'article</button></a>
+                            <a href="formulaires/delete_article.php?id=<?php echo $articles['idArticles']; ?>"><button type="button" name="delete" class="modifier" id="mod_article">supprimer l'article</button></a>
                     <?php
                         }
                         $i = 0;
