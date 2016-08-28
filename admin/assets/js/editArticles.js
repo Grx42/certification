@@ -50,3 +50,9 @@ $(document).bind('keypress', function(e) {
         location.reload(true);
     }
 });
+
+// modif article //
+$("#mod_article").click(function(){
+    var articleID = findID($(this));
+    
+});

@@ -1,5 +1,4 @@
-<?php
-    include_once("../../../../pdo_blog.php");
+<?php include_once("../../../../pdo_blog.php");
 
     $titre = $_POST['title'];
     $article = $_POST['article'];
@@ -16,5 +15,4 @@
     ));
     $req->closeCursor();
     header("location: ../ecrire_article.php?article=send");
-
 ?>

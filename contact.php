@@ -16,14 +16,13 @@
     <body>
         <?php include_once("includes/header.php"); ?>
 
-
         <section id="contact">
             <div class="container">
                 <div class="row text-center clearfix">
                     <div class="col-sm-8 col-sm-offset-2">
                         <div class="contact-heading">
                             <h2 class="title-one">envie de nous contacter?</h2>
-                            <p>Si vous voulez plus de renseignement sur nous où toute autre questions, adresser un petit message via ce formulaire ou en passant sur nos réseau sociaux.</p>
+                            <p>Si vous voulez plus de renseignements sur nous où toutes autres questions, adressez-nous un petit message via ce formulaire ou en passant sur nos réseaux sociaux.</p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +32,7 @@
                     <div class="pattern"></div>
                     <div class="row text-center clearfix">
                         <div class="col-sm-6">
-                            <div class="contact-address"><address><p><span>Dédicace</span> à l'équipe</p><strong>Isabelle<br>Gwen<br>Greg<br>Ben</strong><br><small>(ainsi que les liens de nos résaux sociaux)</small></address>
+                            <div class="contact-address"><address><p><span>Dédicace</span> à l'équipe</p><strong>Isabelle<br>Gwen<br>Greg<br>Ben</strong><br><small>(ainsi que les liens de nos réseaux sociaux)</small></address>
                                 <div class="social-icons">
                                     <a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a><a href="#"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
