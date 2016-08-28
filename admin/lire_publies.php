@@ -22,31 +22,13 @@
 
                     <div class="row">
                         <h2>Mes articles publiés</h2>
-
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <h3>ID</h3>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <h3>Titre</h3>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <h3>Date</h3>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <h3>Auteur</h3>
-                            </div>
-
-                        </div>
                     </div>
 
                     <?php
                         include_once("../../../pdo_blog.php");
 
-                        $req = $bdd->prepare('SELECT idArticles, titre, contenu, date_redac FROM articles WHERE brouillon = :est_un_brouillon ORDER BY date_redac DESC');
+
+                        $req = $bdd->prepare('SELECT idArticles, titre, contenu, date_redac, login FROM articles LEFT JOIN comptes ON comptes_idcomptes = idcomptes WHERE brouillon = :est_un_brouillon ORDER BY date_redac DESC');
                         $req->execute(array(
                             'est_un_brouillon' => 0
                         ));
@@ -57,7 +39,30 @@
                             $i++;
                     ?>
                             <div class="row">
-                                <div class="col-sm-3" id="articleID">
+                                <div class="row">
+                                    <div class="col-sm-1">
+                                        <h3>ID</h3>
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <h3>Titre</h3>
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <h3>Date</h3>
+                                    </div>
+
+                                    <div class="col-sm-2">
+                                        <h3>Auteur</h3>
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <h3>Etat</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1" id="articleID">
                                     <?php echo $articles['idArticles']; ?>
                                 </div>
 
@@ -69,23 +74,8 @@
                                     <?php echo $articles['date_redac']; ?>
                                 </div>
 
-                                <div class="col-sm-3">
-                                    <p>Admin</p>
-                                </div>
-
-                            <div class="row">
-                                <div class="col-sm-9 ">
-                                    <h3>Article</h3>
-                                </div>
-
-                                <div class="col-sm-3">
-                                    <h3>Etat</h3>
-                                </div>
-
-                            </div>
-
-                                <div class="col-sm-9">
-                                    <?php echo $articles['contenu']; ?>
+                                <div class="col-sm-2">
+                                    <p><?php echo $articles['login']; ?></p>
                                 </div>
 
                                 <div class="col-sm-3">
@@ -99,7 +89,18 @@
                                     </div>
                                 </div>
 
+                            <div class="row">
+                                <div class="col-sm-12 ">
+                                    <h3>Article</h3>
+                                </div>
+
                             </div>
+
+                                <div class="col-sm-12">
+                                    <?php echo $articles['contenu']; ?>
+                                </div>
+                            </div>
+                            <a href="modif_article.php?id=<?php echo $articles['idArticles']; ?>"><button type="button" name="modifier" class="modifier" id="mod_article">modifier l'article</button></a>
                     <?php
                         }
                         $i = 0;
@@ -117,7 +118,7 @@
         </div>	<!--/.main-->
 
         <?php include_once('includes/scripts.php'); ?>
-        <script type="text/javascript" src="assets/js/editState.js"></script>
+        <script type="text/javascript" src="assets/js/editArticles.js"></script>
     </body>
 
 </html>
