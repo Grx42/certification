@@ -6,7 +6,7 @@ body {
 	position: relative;
 	font-weight:400;
 	color:#00535F;
-	background-image: url(images/soft-white-backgrounds.jpg);
+	background-color: rgb(251, 251, 251);
 
 }
 .haed{
@@ -96,7 +96,6 @@ h3,
 .titre{
 height: 250px;
 width: 100%;
-background-image:url(images/img9.jpg);
 }
 .titre h1{
 font-family: 'Kaushan Script', cursive;
@@ -126,10 +125,11 @@ margin:0;
     background-image: linear-gradient(to bottom, #008498 11%,  #00535F 56%);
 	box-shadow: 0 0 65px #002C32 inset, 0 0 20px #00424C inset, 0 0 3px #001518;
 }
-img {
-	border-radius: 33% 67%;
- 	box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
-	margin-bottom: 20px
+
+.biopic img {
+    border-radius: 33% 67%;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
 }
 .about{
 	text-align: center;
@@ -475,11 +475,14 @@ h4{
 .social-icons a {
 	color: #A2A2A2;
 	padding: 6px;
+	/* transition pour les deux événements */
+	transition: all 2s;
+
 }
-
-
 .social-icons a:hover {
   color: #fc7700;
+  transform: rotate(1080deg);
+  border-radius: 50%;
 }
 
 .contact-address .social-icons,

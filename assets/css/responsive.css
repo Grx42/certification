@@ -13,7 +13,7 @@
 	body {
     background-color: #EFF5F5;
 	}
-	img{
+	.biopic img{
 		height: 200px !important;
 	}
 	#navigation .navbar-nav.navbar-right li{
@@ -53,7 +53,7 @@
     	background-color: #CFE1E1;
     	font-size: 14px;
 	}
-	img{
+	.biopic img{
 		border-radius: 0;
 		filter: sepia(1)hue-rotate(300deg);
 		height: 250px !important;
@@ -157,10 +157,8 @@
 	}
 	.form-control {
 	    font-size: 9px;
-		font-family: Georgia,Times New Roman,serif;
-    	text-transform: uppercase;
 	}
-	img{
+	.biopic img{
 		filter: sepia(1)hue-rotate(150deg);
 	}
 	#navigation .navbar-nav.navbar-right li a{

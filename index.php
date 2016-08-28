@@ -25,12 +25,16 @@
                 <div class="row">
                     <div class="col-sm-6 ">
                         <h3>Pendant la formation</h3>
-                        <img src="images/Album/GroupeSimplonIness.jpg" alt="groupe" itemprop="image">
+                        <p class="biopic">
+                            <img src="images/Album/GroupeSimplonIness.jpg" alt="groupe" itemprop="image">
+                        </p>
                     </div>
 
                     <div class="col-sm-6">
                         <h3>Apres la Formation</h3>
-                        <img src="images/Album/Finformation.jpg" alt="fin formation" itemprop="image">
+                        <p class="biopic">
+                            <img src="images/Album/Finformation.jpg" alt="fin formation" itemprop="image">
+                        </p>
                     </div>
                 </div>
 
