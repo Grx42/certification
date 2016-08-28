@@ -94,11 +94,11 @@
                     <div class="col-sm-3 col-xs-12 portfolio-item html">
                         <div class="view efffect">
                             <div class="portfolio-image">
-                                <img src="images/portfolio/5.jpg" alt="premier meet up">
+                                <img src="images/portfolio/5.jpg" alt="groupe">
                             </div> <a href="images/portfolio/big-item5.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Premier meet up de la formation Simplon</h4>
+                                <h4>les enfants du Hour of Code</h4>
                                 <a href="images/portfolio/big-item5.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>
