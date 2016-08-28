@@ -24,14 +24,22 @@
             $article = $req->fetch();
             $req->closeCursor();
         ?>
-            <div class="container">
-                <div class="row">
-                    <form class="col-lg-12" action="formulaires/edit_article.php" method="post">
-                        <input type="text" name="titre" value="<?php echo $article['titre']; ?>">
-                        <textarea name="contenu" rows="30" cols="70"><?php echo $article['contenu']; ?></textarea>
-                        <input type="submit" name="valider" value="Modifier l'article">
-                    </form>
-                </div>
+            <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+                    <form class="add_article" action="formulaires/edit_article.php" method="post">
+                    <label for="title">Titre</label>
+                    <br>
+                    <input type="text" id="title" name="title" value="<?php echo $article['titre']; ?>">
+                    <br>
+                    <div>
+                        <p>
+                            <label for="article">Article</label>
+                        </p>
+
+                    </div>
+                    <textarea name='article' id="textarea" cols="150" rows="10"><?php echo $article['contenu']; ?></textarea>
+                    <input type="text" name="id" value="<?php echo $id ?>" hidden>
+                    <br>
+                    <input type="submit" name="valider" value="Modifier l'article">
             </div>
 
         <?php include_once('includes/scripts.php'); ?>

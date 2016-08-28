@@ -27,7 +27,6 @@
                     <?php
                         include_once("../../../pdo_blog.php");
 
-
                         $req = $bdd->prepare('SELECT idArticles, titre, contenu, date_redac, login FROM articles LEFT JOIN comptes ON comptes_idcomptes = idcomptes WHERE brouillon = :est_un_brouillon ORDER BY date_redac DESC');
                         $req->execute(array(
                             'est_un_brouillon' => 0
