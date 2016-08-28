@@ -10,13 +10,11 @@
     <?php include_once('../../../pdo_blog.php'); //connexion a la bdd) ?>
     <?php include_once("../fonctions/librairie.php"); ?>
 
-    <?php include_once('../../../pdo_blog.php'); //connexion a la bdd) ?>
-    <?php include_once("../fonctions/librairie.php"); ?>
-
     <body>
         <?php $page_admin = "w_articles"; //sert a ajouter la classe active dans le menu ?>
         <?php include_once('includes/header.php'); ?>
         <?php include_once('includes/menu_admin.php'); ?>
+        <?php include_once('includes/traitement_get.php'); ?>
 
         <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
             <h2 class="title-one">Ajouter un article</h2>

@@ -26,15 +26,19 @@
                 $req->closeCursor();
                 header('location: ../profil.php?upload=ok');
             }
+            else
+            {
+                header('location: ../profil.php?upload=wrongExt');
+            }
         }
         else
         {
-            header('location: ../profil.php?errAv=tailleSup');
+            header('location: ../profil.php?upload=tailleSup');
         }
     }
     else
     {
-        header('location: ../profil.php?errAv=emptyFields');
+        header('location: ../profil.php?upload=emptyFields');
     }
 
 ?>
