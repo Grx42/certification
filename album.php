@@ -203,7 +203,7 @@
                             <a href="images/portfolio/big-item12.jpg" data-gallery="prettyPhoto">
                                 <div class="mask text-center">
                                 <h3>Novel</h3>
-                                <h4>Le Grand Narbonne remet les diplômes à la première promotion de Simplon.IN’ESS</h4>
+                                <h4>Les diplômes à la première promotion de Simplon.IN’ESS</h4>
                                 <a href="images/portfolio/big-item12.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i>
                             </div>
                             </a>

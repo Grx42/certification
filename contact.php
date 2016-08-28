@@ -34,8 +34,8 @@
                         <div class="col-sm-6">
                             <div class="contact-address"><address><p><span>Dédicace</span> à l'équipe</p><strong>Isabelle<br>Gwen<br>Greg<br>Ben</strong><br><small>(ainsi que les liens de nos réseaux sociaux)</small></address>
                                 <div class="social-icons">
-                                    <a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a><a href="#"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/simplon-IsabelD"><i class="fa fa-github-square fa-3x" aria-hidden="true"><p>Is</p></i></a><a href="https://github.com/simplon-gwenG"><i class="fa fa-github-square fa-3x" aria-hidden="true"><p>Gw</p></i></a>
+                                    <a href="https://github.com/simplon-gregoryg"><i class="fa fa-github-square fa-3x" aria-hidden="true"><p>Gr</p></i></a><a href="https://github.com/simplon-benjaminb"><i class="fa fa-github-square fa-3x" aria-hidden="true"><P>Be</p></i></a>
                                 </div>
                             </div>
                         </div>

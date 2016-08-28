@@ -41,16 +41,16 @@
                 <div class="row">
                     <div class="col-sm-6 ">
                         <div class="cadre">
-                            <p>La vie en formation pas toujours facile...</p><br>
-                            <p>L'innovation!!! Etre innovant...</p><br>
+                            <p>La vie en formation pas toujours facile...</p><br/>
+                            <p>L'innovation!!! Etre innovant...</p><br/>
                             <p>1 salle aquarium pour des petits poissons qui souhaitent devenir grands, un jour...</p>
                         </div>
                     </div>
 
                     <div class="col-sm-6 ">
                         <div class="cadre">
-                            <p>Des interrogations</p><br>
-                            <p>Encore des interrogations</p><br>
+                            <p>Des interrogations</p><br/>
+                            <p>Encore des interrogations</p><br/>
                             <p>Que faire pour devenir un bon professionel...</p>
                         </div>
                     </div>
