@@ -1,10 +1,18 @@
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 992px et 1199px */
 @media (min-width:992px) and (max-width:1199px){
 	.efffect h3{
 		font-size:15px;
 		margin-top:10px
 	}
+	body {
+    background-color: #EEF4F4;
+	}
 }
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 768px et 991px */
 @media (min-width:768px) and (max-width:991px){
+	body {
+    background-color: #EFF5F5;
+	}
 	#navigation .navbar-nav.navbar-right li{
 		padding:0 0;
 	}
@@ -12,115 +20,138 @@
 		width:70%
 	}
 	.header-bottom .btn-primary{
-		float:right
+		float:right;
 	}
 	.about-us .tab-content .pull-left.media-object{
 		float:inherit;
 		width:100%;
-		margin-bottom:15px
+		margin-bottom:15px;
 	}
 	.single-member{
 		height:515px;
-		margin-bottom:30px
+		margin-bottom:30px;
 	}
 	.efffect h3,.efffect h4{
 		display:none
 	}
 	.mask a i{
-		margin-top:28px
+		margin-top:28px;
 	}
 }
+/* Sur tous types d'écran, quand la largeur de la fenêtre est de 767px */
 @media (max-width:767px){
 	#navigation .navbar-nav.navbar-right{
-		margin-top:0
+		margin-top:0;
 	}
 	.media,.media-body{
 		overflow:inherit!important
 	}
+	body {
+    background-color: #CFE1E1;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+
+	}
 	#navigation .navbar-inverse .navbar-nav .active a,
 	#navigation .navbar-inverse .navbar-nav .active a:focus,
 	#navigation .navbar-nav.navbar-right li a:hover{
-		border:none
+		border:none;
 	}
 	.call-to-action p,.header-bottom #subscribe-form p{
-		font-size:14px
+		font-size:14px;
 	}.header-bottom #subscribe-form .mail-field{
 		display:inline;
 		float:none;
 		margin-bottom:13px;
 		margin-right:0;
-		width:100%
+		width:100%;
 	}
 	#main-carousel .carousel-inner h2{
-		border-bottom:0;font-size:30px
+		border-bottom:0;font-size:30px;
 	}
 	.slider-btn{
 		font-size:16px;
 		height:45px;
 		line-height:45px;
-		width:150px
+		width:150px;
 	}
 	.title-one{
-		font-size:24px
+		font-size:24px;
 	}
 	#about-us p{
-		font-size:14px
+		font-size:14px;
 	}.nav-tabs li{
-		width:33%
+		width:33%;
 	}
 	.nav-tabs li a{
-		text-align:center
+		text-align:center;
 	}
 	.nav-tabs li a i{
-		display:block
+		display:block;
 	}
 	.about-us .tab-content .pull-left.media-object{
 		background-color:#F6F6F6;
 		display:block;float:inherit!important;margin-right:0;
-		width:100%
+		width:100%;
 	}
 	#services h2{
 		font-size:24px
 	}
 	.member-right{
-		left:55%
+		left:55%;
 	}
 	.single-member{
 		margin-bottom:25px;
-		height:600px
+		height:600px;
 	}
 	#portfolio .portfolio-filter{
-		padding:0
+		padding:0;
 	}
 	#portfolio .portfolio-filter li{
-		margin-bottom:10px
+		margin-bottom:10px;
 	}
 	.efffect h3{
-		margin-top:18%
+		margin-top:18%;
 	}
 	#clients-carousel .carousel-inner img{
-		width:100%
+		width:100%;
 	}
 	.single-blog ul li{
-		margin-bottom:10px
+		margin-bottom:10px;
 	}
 	#gmap iframe{
-		height:225px
+		height:225px;
 	}
 	.contact-address{
 		padding-left:10px;
-		padding-right:10px
+		padding-right:10px;
 	}
 	.pattern{
-		height:960px
+		height:960px;
 	}
 	#footer p{
-		font-size:14px
+		font-size:14px;
 	}
 }
+/* Sur tous types d'écran, quand la largeur de la fenêtre est de 479px*/
 @media (max-width:479px){
 	body section{
-		overflow:hidden
+		overflow:hidden;
+	}
+	body {
+    	background-color: #C0D8D8;
+	}
+	.titre h1 {
+    	font-size: 40px;
+	}
+	h2{
+		font-size: 24px;
+	}
+	.form-control {
+	    font-size: 9px;
+		font-family: Georgia,Times New Roman,serif;
+    	text-transform: uppercase;
 	}
 	#navigation .navbar-nav.navbar-right li a{
 		padding:5px 15px;
@@ -131,81 +162,81 @@
 	#navigation .navbar-inverse .navbar-nav .active a,
 	#navigation .navbar-inverse .navbar-nav .active a:focus,
 	#navigation .navbar-nav.navbar-right li a:hover{
-		border:none
+		border:none;
 	}
 	.call-to-action p,
 	.header-bottom #subscribe-form p{
-		font-size:14px
+		font-size:14px;
 	}
 	.header-bottom #subscribe-form .mail-field{
 		display:inline;
 		float:none;
 		margin-bottom:13px;
 		margin-right:0;
-		width:100%
+		width:100%;
 	}
 	#main-carousel .carousel-inner h2{
 		border-bottom:0;
-		font-size:30px
+		font-size:30px;
 	}
 	.slider-btn{
 		font-size:16px;
 		height:45px;
 		line-height:45px;
-		width:150px
+		width:150px;
 	}
 	.title-one{
-		font-size:24px
+		font-size:24px;
 	}
 	#about-us p{
-		font-size:14px
+		font-size:14px;
 	}
 	.nav-tabs li{
-		width:33%
+		width:33%;
 	}
 	.nav-tabs li a{
-		text-align:center
+		text-align:center;
 	}
 	.nav-tabs li a i{
-		display:block
+		display:block;
 	}
 	.about-us .tab-content .pull-left.media-object{
 		background-color:#F6F6F6;
 		display:block;
 		float:inherit!important;
 		margin-right:0;
-		width:100%
+		width:100%;
 	}
 	#services h2{
 		font-size:24px
 	}
 	.member-right{
-		left:55%
+		left:55%;
 	}
 	.single-member{
 		margin-bottom:25px;
-		height:450px
+		height:450px;
 	}
 	#portfolio .portfolio-filter li{
-		margin-bottom:10px
+		margin-bottom:10px;
 	}
 	.efffect h3{
-		margin-top:8%
+		margin-top:8%;
 	}
 	.single-blog ul li{
-		margin-bottom:10px
+		margin-bottom:10px;
 	}
 	#gmap iframe{
-		height:225px
+		height:225px;
 	}
 	.contact-address{
 		padding-left:10px;
-		padding-right:10px
+		padding-right:10px;
 	}
 	.pattern{
-		height:960px
+		height:960px;
 	}
 	#footer p{
-		font-size:14px
+		font-size:14px;
 	}
 }

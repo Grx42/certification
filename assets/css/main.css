@@ -40,6 +40,13 @@ a {
 	transition: 300ms;
 	color:#fff;
 }
+.pagination > li > a, .pagination > li > span {
+    color: #fc7700;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #00535f;
+    border-color: #00535f;
+}
 h2 {
 	font-size: 40px;
 }
@@ -107,8 +114,6 @@ margin:0;
 .cadre{
 	overflow: hidden; /* les dépassements seront masqués */
 	word-wrap: break-word;
-	background-color: rgba( 0, 83, 95, 1.1);
-    border-radius: 6px;
 	height: 200px;
 	width: 90%;
 	margin-left: auto;
@@ -117,8 +122,9 @@ margin:0;
 	margin-bottom: 30px;
 	padding-left: 10px;
 	color: #FFF;
-	box-shadow: 5px 5px 5px black inset;
-
+	border-radius: 6px / 10px;
+    background-image: linear-gradient(to bottom, #008498 11%,  #00535F 56%);
+	box-shadow: 0 0 65px #002C32 inset, 0 0 20px #00424C inset, 0 0 3px #001518;
 }
 .about{
 	text-align: center;
@@ -354,7 +360,7 @@ h4{
    opacity: 0;
 }
 .efffect h3 {
-   -ms-filter: "progid: DXImageTranwhite
+   -ms-filter: "progid": DXImageTranwhite
    -webkit-transform: scale(0);
    -moz-transform: scale(0);
    -o-transform: scale(0);
@@ -472,7 +478,8 @@ h4{
 .contact-address .social-icons,
 .contact-address address {
 	z-index:2;
-	position:relative
+	position:relative;
+
 }
 
 .contact-address  p {
