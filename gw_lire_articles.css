@@ -1,0 +1,143 @@
+/*========================================
+====== Admin / Lire les articles CSS =====
+========================================*/
+
+
+.liste{
+	text-align: center;
+}
+
+.onoffswitch {
+    position: relative;
+	width: 100%;
+    -webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block;
+	overflow: hidden;
+	cursor: pointer;
+    border: 2px solid #999999;
+	border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block;
+	width: 200%;
+	margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block;
+	float: left;
+	width: 50%;
+	height: 30px;
+	padding: 0;
+	line-height: 30px;
+    font-size: 14px;
+	color: white;
+	font-family: Trebuchet, Arial, sans-serif;
+	font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Publié";
+    text-align: center;
+    background-color: #31E865;
+	color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Brouillon";
+    text-align: center;
+    background-color: #F20E3C;
+	color: #FFFFFF;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+div.col-sm-9{
+	text-align: justify;
+}
+
+label[for=title]{
+	margin-right: 21px;
+}
+
+label[for=article]{
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+label[for=brouillon]{
+	margin-right: 10px;
+}
+
+#title{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#textarea{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#smiley{
+	width: 22px;
+	height: 22px;
+	box-shadow: none;
+}
+
+#angry{
+	width: 23px;
+	height: 24px;
+	box-shadow: none;
+}
+
+#publie{
+	margin-left: 10px;
+}
+
+#ajouter{
+	margin-left: 10px;
+}
+
+#validation_modif{
+	margin-top: 25px;
+}
+
+.modifier{
+ display: inline-block;
+ border: none;
+ color: #D9E6BC;
+ border-radius: 22px 22px 22px 22px;
+ -webkit-border-radius: 22px 22px 22px 22px;
+ -moz-border-radius: 22px 22px 22px 22px;
+ font-family: Trebuchet MS;
+ width: 100%;
+ height: auto;
+ font-size: 16px;
+ padding: 10px 40px;
+ box-shadow: inset 0 1px 0 0 #FFF6CE,inset 0 -1px 0 0 #E3C852,inset 0 0 0 1px #FCE88D,0 2px 4px 0 #D4D4D4;
+ -moz-box-shadow: inset 0 1px 0 0 #FFF6CE,inset 0 -1px 0 0 #E3C852,inset 0 0 0 1px #FCE88D,0 2px 4px 0 #D4D4D4;
+ -webkit-box-shadow: inset 0 1px 0 0 #FFF6CE,inset 0 -1px 0 0 #E3C852,inset 0 0 0 1px #FCE88D,0 2px 4px 0 #D4D4D4;
+ text-shadow: 0px 0px 1px #FFFFFF;
+ background-image: linear-gradient(to top, #1F5491, #2D80FC);
+ background-color: #1352BF;
+}
+.modifier:hover, .modifier:active{
+ border: none;
+ color: #CCCBCA;
+ box-shadow: inset 0 1px 0 0 #FFF6CE;
+ -moz-box-shadow: inset 0 1px 0 0 #FFF6CE;
+ -webkit-box-shadow: inset 0 1px 0 0 #FFF6CE;
+ background-color: #36AFF5;
+}

@@ -24,29 +24,23 @@
                         <h2>Mes brouillons</h2>
 
                         <div class="row">
-                            <div class="col-sm-1">
+                            <div class="col-sm-3">
                                 <h3>ID</h3>
                             </div>
 
-                            <div class="col-sm-2">
+                            <div class="col-sm-3">
                                 <h3>Titre</h3>
                             </div>
 
-                            <div class="col-sm-4 ">
-                                <h3>Article</h3>
-                            </div>
 
-                            <div class="col-sm-2">
+                            <div class="col-sm-3">
                                 <h3>Date</h3>
                             </div>
 
-                            <div class="col-sm-1">
+                            <div class="col-sm-3">
                                 <h3>Auteur</h3>
                             </div>
 
-                            <div class="col-sm-2">
-                                <h3>Etat</h3>
-                            </div>
                         </div>
                     </div>
 
@@ -64,27 +58,39 @@
                                 $i++;
                         ?>
                                 <div class="row">
-                                    <div class="col-sm-1" id="articleID">
+                                    <div class="col-sm-3" id="articleID">
                                         <?php echo $articles['idArticles']; ?>
                                     </div>
 
-                                    <div class="col-sm-2">
+                                    <div class="col-sm-3">
                                         <?php echo $articles['titre']; ?>
                                     </div>
 
-                                    <div class="col-sm-4">
-                                        <?php echo $articles['contenu']; ?>
-                                    </div>
 
-                                    <div class="col-lg-2">
+                                    <div class="col-sm-3">
                                         <?php echo $articles['date_redac']; ?>
                                     </div>
 
-                                    <div class="col-lg-1">
+                                    <div class="col-sm-3">
                                         <p>Admin</p>
                                     </div>
 
-                                    <div class="col-sm-2">
+                                    <div class="row">
+                                        <div class="col-sm-9 ">
+                                            <h3>Article</h3>
+                                        </div>
+
+                                        <div class="col-sm-3">
+                                            <h3>Etat</h3>
+                                        </div>
+
+                                    </div>
+
+                                        <div class="col-sm-9">
+                                            <?php echo $articles['contenu']; ?>
+                                        </div>
+
+                                    <div class="col-sm-3">
                                         <div class="onoffswitch">
                                             <input type="checkbox" name="onoffswitch<?php echo $i; ?>" class="onoffswitch-checkbox" id="myonoffswitch<?php echo $i; ?>">
                                             <label class="onoffswitch-label" for="myonoffswitch<?php echo $i; ?>">
@@ -92,8 +98,10 @@
                                                 <span class="onoffswitch-switch"></span>
                                             </label>
                                         </div>
-                                    </div>
 
+                                            <button type="button" name="modifier" class="modifier">modifier</button>
+
+                                    </div>
                                 </div>
                         <?php
                             }
@@ -107,7 +115,7 @@
                             </div>
                         </div>
 
-                </div>
+
             </section>
 
                 </div>

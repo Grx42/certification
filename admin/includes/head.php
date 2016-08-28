@@ -13,3 +13,4 @@
 <link href="../assets/css/styles.css" rel="stylesheet">
 <link href="../assets/css/datepicker.css" rel="stylesheet">
 <link href="../assets/css/datepicker3.css" rel="stylesheet">
+<link href="../assets/css/gw_lire_articles.css" rel="stylesheet">

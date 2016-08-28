@@ -23,7 +23,7 @@
                     <div class="col-sm-8 col-sm-offset-2">
                         <div class="contact-heading">
                             <h2 class="title-one">envie de nous contacter?</h2>
-                            <p>Si vous voulez plus de renseignement sur nous où toute autre questions, adresser un petit message via ce formulaire ou en passant sur nos réseau sociaux.</p>
+                            <p>Si vous voulez plus de renseignement sur nous où toute autre question, adressez-nous un petit message via ce formulaire ou en passant sur nos réseaux sociaux.</p>
                         </div>
                     </div>
                 </div>
